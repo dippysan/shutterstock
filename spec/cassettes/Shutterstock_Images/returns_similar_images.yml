@@ -1,0 +1,126 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/32329852
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:37:11 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '2178'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - c3807078-42a0-4ee2-a16f-2403eca73b7c
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 3b68e77b47065984408d771b7b1af2bf
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"32329852","added_date":"2009-06-19","aspect":0.6667,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":147456,"format":"jpg","height":500,"is_licensable":true,"width":333},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":424960,"format":"jpg","height":1000,"is_licensable":true,"width":667},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":2125824,"format":"jpg","height":3480,"is_licensable":true,"width":2320},"supersize_jpg":{"display_name":"Super","dpi":300,"file_size":5022216,"format":"jpg","height":6960,"is_licensable":false,"width":4640},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":24220800,"format":"tiff","height":3480,"is_licensable":false,"width":2320},"supersize_tiff":{"display_name":"Super","dpi":300,"file_size":96883200,"format":"tiff","height":6960,"is_licensable":false,"width":4640},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/130585/130585,1245447002,2/stock-photo-orange-beach-umbrella-over-blue-sky-background-space-for-copy-jpeg-file-with-clipping-path-32329852.jpg","width":300},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/130585/130585,1245447002,2/stock-photo-orange-beach-umbrella-over-blue-sky-background-space-for-copy-jpeg-file-with-clipping-path-32329852.jpg","width":67},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/130585/130585,1245447002,2/stock-photo-orange-beach-umbrella-over-blue-sky-background-space-for-copy-jpeg-file-with-clipping-path-32329852.jpg","width":100}},"categories":[{"id":"18","name":"Sports/Recreation"},{"id":"9","name":"Objects"}],"contributor":{"id":"130585"},"description":"Orange
+        beach umbrella over blue sky background. Space for copy. Jpeg file with clipping
+        path included.","image_type":"photo","is_adult":false,"keywords":["beach","blue","card","clear","copy","cut","fun","greeting","holiday","isolated","leisure","marine","object","orange","outdoor","parasol","relax","relaxation","sea","seashore","seaside","season","seasonal","sky","space","summer","sun","sunlight","tourism","travel","umbrella","vacation","vertical","yellow"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:37:12 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/32329852/similar
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:37:13 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '15340'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - aeb84241-4bf5-41fc-9b01-d3f8e11f1857
+      X-Shutterstock-Resource:
+      - "/v2/images/:id/similar"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 3600'
+      Etag:
+      - e0100d48cdc43982d2e054b0f8308045
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"per_page":20,"total_count":200,"search_id":"","data":[{"id":"431539351","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/4003009/431539351/stock-vector-hot-dog-fast-food-vector-illustration-flat-icon-431539351.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/4003009/431539351/stock-vector-hot-dog-fast-food-vector-illustration-flat-icon-431539351.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/4003009/431539351/stock-vector-hot-dog-fast-food-vector-illustration-flat-icon-431539351.jpg","width":150}},"contributor":{"id":"4003009"},"description":"Hot
+        dog fast food. Vector illustration. Flat icon.","image_type":"vector","media_type":"image"},{"id":"458743414","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/1813235/458743414/stock-vector-isolated-roasted-chicken-retro-fast-food-vector-illustration-458743414.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_small/1813235/458743414/stock-vector-isolated-roasted-chicken-retro-fast-food-vector-illustration-458743414.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb1.shutterstock.com/thumb_large/1813235/458743414/stock-vector-isolated-roasted-chicken-retro-fast-food-vector-illustration-458743414.jpg","width":150}},"contributor":{"id":"1813235"},"description":"Isolated
+        roasted chicken, Retro fast food, Vector illustration","image_type":"vector","media_type":"image"},{"id":"46084678","aspect":1.2407,"assets":{"preview":{"height":362,"url":"https://image.shutterstock.com/display_pic_with_logo/10684/10684,1265484341,4/stock-vector-stylised-fish-skeleton-46084678.jpg","width":450},"small_thumb":{"height":81,"url":"https://thumb1.shutterstock.com/thumb_small/10684/10684,1265484341,4/stock-vector-stylised-fish-skeleton-46084678.jpg","width":100},"large_thumb":{"height":121,"url":"https://thumb1.shutterstock.com/thumb_large/10684/10684,1265484341,4/stock-vector-stylised-fish-skeleton-46084678.jpg","width":150}},"contributor":{"id":"10684"},"description":"Stylised
+        fish skeleton","image_type":"vector","media_type":"image"},{"id":"513129607","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/161227930/513129607/stock-vector-croissant-icon-and-background-sunrise-style-on-pastel-light-brown-color-tone-513129607.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb10.shutterstock.com/thumb_small/161227930/513129607/stock-vector-croissant-icon-and-background-sunrise-style-on-pastel-light-brown-color-tone-513129607.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb10.shutterstock.com/thumb_large/161227930/513129607/stock-vector-croissant-icon-and-background-sunrise-style-on-pastel-light-brown-color-tone-513129607.jpg","width":150}},"contributor":{"id":"161227930"},"description":"Croissant
+        icon and background sunrise style on pastel light brown color tone","image_type":"vector","media_type":"image"},{"id":"481436413","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/2861395/481436413/stock-vector-piece-salmon-fish-slice-isolated-on-white-background-and-freshness-cut-delicious-diet-eat-fish-481436413.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb10.shutterstock.com/thumb_small/2861395/481436413/stock-vector-piece-salmon-fish-slice-isolated-on-white-background-and-freshness-cut-delicious-diet-eat-fish-481436413.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb10.shutterstock.com/thumb_large/2861395/481436413/stock-vector-piece-salmon-fish-slice-isolated-on-white-background-and-freshness-cut-delicious-diet-eat-fish-481436413.jpg","width":150}},"contributor":{"id":"2861395"},"description":"Piece
+        salmon fish slice isolated on white background and freshness cut delicious
+        diet eat fish slice vector","image_type":"vector","media_type":"image"},{"id":"20769595","aspect":1.3332,"assets":{"preview":{"height":337,"url":"https://image.shutterstock.com/display_pic_with_logo/139573/139573,1227083509,2/stock-vector-crystal-flower-20769595.jpg","width":450},"small_thumb":{"height":75,"url":"https://thumb9.shutterstock.com/thumb_small/139573/139573,1227083509,2/stock-vector-crystal-flower-20769595.jpg","width":100},"large_thumb":{"height":113,"url":"https://thumb9.shutterstock.com/thumb_large/139573/139573,1227083509,2/stock-vector-crystal-flower-20769595.jpg","width":150}},"contributor":{"id":"139573"},"description":"Crystal
+        Flower","image_type":"vector","media_type":"image"},{"id":"133193405","aspect":1.1468,"assets":{"preview":{"height":392,"url":"https://image.shutterstock.com/display_pic_with_logo/615430/133193405/stock-vector-colorful-yellow-fish-with-red-stripes-isolated-vector-illustration-on-white-background-133193405.jpg","width":450},"small_thumb":{"height":87,"url":"https://thumb7.shutterstock.com/thumb_small/615430/133193405/stock-vector-colorful-yellow-fish-with-red-stripes-isolated-vector-illustration-on-white-background-133193405.jpg","width":100},"large_thumb":{"height":131,"url":"https://thumb7.shutterstock.com/thumb_large/615430/133193405/stock-vector-colorful-yellow-fish-with-red-stripes-isolated-vector-illustration-on-white-background-133193405.jpg","width":150}},"contributor":{"id":"615430"},"description":"Colorful
+        yellow fish with red stripes. Isolated vector illustration on white background","image_type":"vector","media_type":"image"},{"id":"1817649","aspect":0.8044,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/5128/5128,1157852315,2/stock-vector-background-with-curved-lines-and-gradient-1817649.jpg","width":361},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/5128/5128,1157852315,2/stock-vector-background-with-curved-lines-and-gradient-1817649.jpg","width":80},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/5128/5128,1157852315,2/stock-vector-background-with-curved-lines-and-gradient-1817649.jpg","width":121}},"contributor":{"id":"5128"},"description":"Background
+        with curved lines and gradient","image_type":"vector","media_type":"image"},{"id":"310998512","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/1569788/310998512/stock-vector-sushi-isolated-illustration-on-white-background-310998512.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/1569788/310998512/stock-vector-sushi-isolated-illustration-on-white-background-310998512.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/1569788/310998512/stock-vector-sushi-isolated-illustration-on-white-background-310998512.jpg","width":150}},"contributor":{"id":"1569788"},"description":"Sushi
+        isolated illustration on white background","image_type":"vector","media_type":"image"},{"id":"167873624","aspect":1.5,"assets":{"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/462202/167873624/stock-photo-realistic-d-render-of-liver-167873624.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb1.shutterstock.com/thumb_small/462202/167873624/stock-photo-realistic-d-render-of-liver-167873624.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_large/462202/167873624/stock-photo-realistic-d-render-of-liver-167873624.jpg","width":150}},"contributor":{"id":"462202"},"description":"realistic
+        3d render of liver","image_type":"photo","media_type":"image"},{"id":"490162351","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/968654/490162351/stock-vector-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490162351.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/968654/490162351/stock-vector-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490162351.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/968654/490162351/stock-vector-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490162351.jpg","width":150}},"contributor":{"id":"968654"},"description":"Horizontal
+        seamless pattern of sea motif, stripes. Hand drawn.","image_type":"vector","media_type":"image"},{"id":"80503540","aspect":1.0118,"assets":{"preview":{"height":444,"url":"https://image.shutterstock.com/display_pic_with_logo/194326/194326,1309931804,2/stock-vector-vector-tropical-fish-80503540.jpg","width":450},"small_thumb":{"height":99,"url":"https://thumb9.shutterstock.com/thumb_small/194326/194326,1309931804,2/stock-vector-vector-tropical-fish-80503540.jpg","width":100},"large_thumb":{"height":148,"url":"https://thumb9.shutterstock.com/thumb_large/194326/194326,1309931804,2/stock-vector-vector-tropical-fish-80503540.jpg","width":150}},"contributor":{"id":"194326"},"description":"Vector
+        tropical fish","image_type":"vector","media_type":"image"},{"id":"490177678","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/968654/490177678/stock-photo-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490177678.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_small/968654/490177678/stock-photo-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490177678.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb1.shutterstock.com/thumb_large/968654/490177678/stock-photo-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490177678.jpg","width":150}},"contributor":{"id":"968654"},"description":"Horizontal
+        seamless pattern of sea motif, stripes. Hand drawn.","image_type":"photo","media_type":"image"},{"id":"41402194","aspect":1.3643,"assets":{"preview":{"height":329,"url":"https://image.shutterstock.com/display_pic_with_logo/350272/350272,1258905549,10/stock-photo-abstract-element-41402194.jpg","width":450},"small_thumb":{"height":73,"url":"https://thumb1.shutterstock.com/thumb_small/350272/350272,1258905549,10/stock-photo-abstract-element-41402194.jpg","width":100},"large_thumb":{"height":110,"url":"https://thumb1.shutterstock.com/thumb_large/350272/350272,1258905549,10/stock-photo-abstract-element-41402194.jpg","width":150}},"contributor":{"id":"350272"},"description":"Abstract
+        element","image_type":"photo","media_type":"image"},{"id":"13804285","aspect":1.1888,"assets":{"preview":{"height":378,"url":"https://image.shutterstock.com/display_pic_with_logo/78981/78981,1213446831,5/stock-vector-flaming-match-13804285.jpg","width":450},"small_thumb":{"height":84,"url":"https://thumb7.shutterstock.com/thumb_small/78981/78981,1213446831,5/stock-vector-flaming-match-13804285.jpg","width":100},"large_thumb":{"height":126,"url":"https://thumb7.shutterstock.com/thumb_large/78981/78981,1213446831,5/stock-vector-flaming-match-13804285.jpg","width":150}},"contributor":{"id":"78981"},"description":"flaming
+        match","image_type":"vector","media_type":"image"},{"id":"259360085","aspect":1.4981,"assets":{"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/1377379/259360085/stock-photo-china-fan-isolated-on-white-background-259360085.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb7.shutterstock.com/thumb_small/1377379/259360085/stock-photo-china-fan-isolated-on-white-background-259360085.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_large/1377379/259360085/stock-photo-china-fan-isolated-on-white-background-259360085.jpg","width":150}},"contributor":{"id":"1377379"},"description":"China
+        fan isolated on white background","image_type":"photo","media_type":"image"},{"id":"231930946","aspect":1.0145,"assets":{"preview":{"height":443,"url":"https://image.shutterstock.com/display_pic_with_logo/2532697/231930946/stock-vector-color-of-autumn-leaf-on-white-background-231930946.jpg","width":450},"small_thumb":{"height":99,"url":"https://thumb9.shutterstock.com/thumb_small/2532697/231930946/stock-vector-color-of-autumn-leaf-on-white-background-231930946.jpg","width":100},"large_thumb":{"height":148,"url":"https://thumb9.shutterstock.com/thumb_large/2532697/231930946/stock-vector-color-of-autumn-leaf-on-white-background-231930946.jpg","width":150}},"contributor":{"id":"2532697"},"description":"Color
+        of Autumn leaf on white Background","image_type":"vector","media_type":"image"},{"id":"542327914","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/615877/542327914/stock-photo-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-image-on-season-idea-beautiful-plant-542327914.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_small/615877/542327914/stock-photo-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-image-on-season-idea-beautiful-plant-542327914.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb1.shutterstock.com/thumb_large/615877/542327914/stock-photo-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-image-on-season-idea-beautiful-plant-542327914.jpg","width":150}},"contributor":{"id":"615877"},"description":"Art
+        fairy illustration of tree, stylized eco symbol. Insight image on season idea,
+        beautiful plant.","image_type":"photo","media_type":"image"},{"id":"478781389","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/615877/478781389/stock-vector-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-vector-image-on-season-idea-beautiful-478781389.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/615877/478781389/stock-vector-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-vector-image-on-season-idea-beautiful-478781389.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/615877/478781389/stock-vector-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-vector-image-on-season-idea-beautiful-478781389.jpg","width":150}},"contributor":{"id":"615877"},"description":"Art
+        fairy illustration of tree, stylized eco symbol. Insight vector image on season
+        idea, beautiful plant.","image_type":"vector","media_type":"image"},{"id":"47854045","aspect":0.9306,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/553351/553351,1267615340,6/stock-photo-illustration-of-isolated-an-umbrella-on-white-background-47854045.jpg","width":418},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/553351/553351,1267615340,6/stock-photo-illustration-of-isolated-an-umbrella-on-white-background-47854045.jpg","width":93},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/553351/553351,1267615340,6/stock-photo-illustration-of-isolated-an-umbrella-on-white-background-47854045.jpg","width":140}},"contributor":{"id":"553351"},"description":"illustration
+        of isolated an umbrella on white background","image_type":"photo","media_type":"image"}]}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:37:13 GMT
+recorded_with: VCR 3.0.3

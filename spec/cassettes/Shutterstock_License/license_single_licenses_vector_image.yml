@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/licenses?format=eps&size=vector&subscription_id=s30187600
+    body:
+      encoding: UTF-8
+      string: '{"images":[{"image_id":"109675343"}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 07:13:48 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '302'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - a5bf4e72-0ba2-4498-b1ce-34ffa3e827cd
+      X-Shutterstock-Resource:
+      - "/v2/images/licenses"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"image_id":"109675343","download":{"url":"https://download.shutterstock.com/gatekeeper/W3siZSI6MTQ4Mzg4ODQyOCwiayI6InBob3RvLzEwOTY3NTM0My92ZWN0b3IuZXBzIiwibSI6IjEiLCJkIjoic2h1dHRlcnN0b2NrLW1lZGlhIn0sIlkzVEV3SitkV3lGMWdiN3FYblVpVThBc3RMSSJd/shutterstock_109675343.eps"},"allotment_charge":1}]}'
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 07:13:49 GMT
+recorded_with: VCR 3.0.3

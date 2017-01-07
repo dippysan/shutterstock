@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/user/subscriptions
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 03:58:52 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '3544'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 6378fda3-8703-4909-ab70-0e91bf5584ca
+      X-Shutterstock-Resource:
+      - "/v2/user/subscriptions"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      Etag:
+      - d755d0bb5e116746e5d1f07b5cd08591
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"s29729296","expiration_time":"2016-12-28T09:36:49-05:00","license":"standard","description":"Monthly
+        Subscription","formats":[{"size":"huge","format":"jpg","media_type":"image","min_resolution":4000000,"description":"Huge"},{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"supersize","format":"jpg","media_type":"image","min_resolution":16000000,"description":"Super"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"},{"size":"vector","format":"eps","media_type":"image","description":"Vector"}]},{"id":"s14235337","expiration_time":"2015-08-08T22:43:27-04:00","license":"standard","description":"Images
+        On Demand","formats":[{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"}]},{"id":"s13218524","expiration_time":"2015-05-27T01:35:45-04:00","license":"standard","description":"Images
+        On Demand","formats":[{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"}]},{"id":"s8250890","expiration_time":"2015-05-21T03:56:18-04:00","license":"standard","description":"25-A-Day
+        Subscription","formats":[{"size":"huge","format":"jpg","media_type":"image","min_resolution":4000000,"description":"Huge"},{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"supersize","format":"jpg","media_type":"image","min_resolution":16000000,"description":"Super"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"},{"size":"vector","format":"eps","media_type":"image","description":"Vector"}]},{"id":"s30187600","expiration_time":"2017-02-05T23:29:10-05:00","license":"standard","description":"Monthly
+        Subscription","allotment":{"start_time":"2017-01-05T23:29:11-05:00","end_time":"2017-02-05T23:29:10-05:00","downloads_left":350,"downloads_limit":350},"formats":[{"size":"huge","format":"jpg","media_type":"image","min_resolution":4000000,"description":"Huge"},{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"supersize","format":"jpg","media_type":"image","min_resolution":16000000,"description":"Super"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"},{"size":"vector","format":"eps","media_type":"image","description":"Vector"}]},{"id":"s19375703","expiration_time":"2016-12-12T12:47:21-05:00","license":"standard","description":"Monthly
+        Subscription","formats":[{"size":"huge","format":"jpg","media_type":"image","min_resolution":4000000,"description":"Huge"},{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"supersize","format":"jpg","media_type":"image","min_resolution":16000000,"description":"Super"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"},{"size":"vector","format":"eps","media_type":"image","description":"Vector"}]},{"id":"s12406385","expiration_time":"2015-03-31T10:16:29-04:00","license":"standard","description":"Images
+        On Demand","formats":[{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"}]}]}'
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 03:58:52 GMT
+recorded_with: VCR 3.0.3

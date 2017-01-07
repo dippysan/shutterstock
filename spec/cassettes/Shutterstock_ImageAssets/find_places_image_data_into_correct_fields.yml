@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/402160099
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 01:20:24 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '2018'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 9e7b4079-be40-4aa6-9df5-2bf5caaa7a91
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - d249dc29f7fe6f19d18286813e1b9182
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"402160099","added_date":"2016-04-07","aspect":1.3333,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":157696,"format":"jpg","height":375,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":584704,"format":"jpg","height":750,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":6538240,"format":"jpg","height":3000,"is_licensable":true,"width":4000},"supersize_jpg":{"display_name":"Super","dpi":300,"file_size":25655298,"format":"jpg","height":6000,"is_licensable":false,"width":8000},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":36000000,"format":"tiff","height":3000,"is_licensable":false,"width":4000},"supersize_tiff":{"display_name":"Super","dpi":300,"file_size":144000000,"format":"tiff","height":6000,"is_licensable":false,"width":8000},"preview":{"height":337,"url":"https://image.shutterstock.com/display_pic_with_logo/1200533/402160099/stock-photo-fashion-show-backstage-402160099.jpg","width":450},"small_thumb":{"height":75,"url":"https://thumb7.shutterstock.com/thumb_small/1200533/402160099/stock-photo-fashion-show-backstage-402160099.jpg","width":100},"large_thumb":{"height":113,"url":"https://thumb7.shutterstock.com/thumb_large/1200533/402160099/stock-photo-fashion-show-backstage-402160099.jpg","width":150}},"categories":[{"id":"20","name":"NOT-CATEGORIZED"},{"id":"27","name":"Beauty/Fashion"}],"contributor":{"id":"1200533"},"description":"Fashion
+        Show Backstage","image_type":"photo","is_adult":false,"keywords":["adult","background","backstage","beauty","black","catwalk","clothes","collection","couture","design","designer","dress","elegance","event","fashion","fashionable","finale","heels","high","industry","italian","legs","london","look","milan","milano","model","modern","new","now","paris","posing","red","row","runway","shoes","show","silhouettes","stage","style","stylish","trendy","unrecognizable","vertical","walk","week","white","woman","york"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 01:20:24 GMT
+recorded_with: VCR 3.0.3

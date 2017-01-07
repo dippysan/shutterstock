@@ -1,0 +1,101 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/licenses?format=jpg&size=huge&subscription_id=s30187600
+    body:
+      encoding: UTF-8
+      string: '{"images":[{"image_id":"157910507"}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 07:41:11 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '300'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - f27c0911-0f30-4e30-a680-8dbc9f2b1330
+      X-Shutterstock-Resource:
+      - "/v2/images/licenses"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"image_id":"157910507","download":{"url":"https://download.shutterstock.com/gatekeeper/W3siZSI6MTQ4Mzg5MDA3MSwiayI6InBob3RvLzE1NzkxMDUwNy9odWdlLmpwZyIsIm0iOiIxIiwiZCI6InNodXR0ZXJzdG9jay1tZWRpYSJ9LCJkdW03OTBMRGc3QlpwQnF4VGFvZmlJMnhqV2ciXQ/shutterstock_157910507.jpg"},"allotment_charge":0}]}'
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 07:41:11 GMT
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/licenses?format=jpg&size=huge&subscription_id=s30187600
+    body:
+      encoding: UTF-8
+      string: '{"images":[{"image_id":"157910507"}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 07:41:13 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '300'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 8ab6b35d-0005-4ea7-9ffb-8fb8da5d5802
+      X-Shutterstock-Resource:
+      - "/v2/images/licenses"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"image_id":"157910507","download":{"url":"https://download.shutterstock.com/gatekeeper/W3siZSI6MTQ4Mzg5MDA3MywiayI6InBob3RvLzE1NzkxMDUwNy9odWdlLmpwZyIsIm0iOiIxIiwiZCI6InNodXR0ZXJzdG9jay1tZWRpYSJ9LCJRYms0TENSaERvTEkwVGc3VXhYTFNxWjYxeHciXQ/shutterstock_157910507.jpg"},"allotment_charge":0}]}'
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 07:41:13 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/118139110
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 00:08:34 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1977'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - e47562af-3dc6-4102-a1af-71a74c1f2554
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - db9c662516f46908753c30d5174e75e9
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"118139110","added_date":"2012-11-09","aspect":1.5,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":88064,"format":"jpg","height":333,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":301056,"format":"jpg","height":667,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":2790400,"format":"jpg","height":3090,"is_licensable":true,"width":4635},"supersize_jpg":{"display_name":"Super","dpi":300,"file_size":10112609,"format":"jpg","height":6180,"is_licensable":false,"width":9270},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":42966450,"format":"tiff","height":3090,"is_licensable":false,"width":4635},"supersize_tiff":{"display_name":"Super","dpi":300,"file_size":171865800,"format":"tiff","height":6180,"is_licensable":false,"width":9270},"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/1306729/118139110/stock-photo-adorable-labrador-puppy-playing-with-a-chew-toy-on-white-backdrop-118139110.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb1.shutterstock.com/thumb_small/1306729/118139110/stock-photo-adorable-labrador-puppy-playing-with-a-chew-toy-on-white-backdrop-118139110.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_large/1306729/118139110/stock-photo-adorable-labrador-puppy-playing-with-a-chew-toy-on-white-backdrop-118139110.jpg","width":150}},"categories":[{"id":"1","name":"Animals/Wildlife"},{"id":"20","name":"NOT-CATEGORIZED"}],"contributor":{"id":"1306729"},"description":"Adorable
+        Labrador Puppy Playing with a Chew Toy on White Backdrop","image_type":"photo","is_adult":false,"keywords":["animal","animal
+        themes","backgrounds","cute","dog","domestic animals","friendship","full length","isolated","labrador","labrador
+        retriever","one animal","pets","play","puppy","purebred dog","studio shot","toy","yellow","young
+        animal"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 00:08:34 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,1144 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/32329852
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:47 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '2178'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 02b64a75-fec9-4298-a4be-fd4cd3f550d0
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 3b68e77b47065984408d771b7b1af2bf
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"32329852","added_date":"2009-06-19","aspect":0.6667,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":147456,"format":"jpg","height":500,"is_licensable":true,"width":333},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":424960,"format":"jpg","height":1000,"is_licensable":true,"width":667},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":2125824,"format":"jpg","height":3480,"is_licensable":true,"width":2320},"supersize_jpg":{"display_name":"Super","dpi":300,"file_size":5022216,"format":"jpg","height":6960,"is_licensable":false,"width":4640},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":24220800,"format":"tiff","height":3480,"is_licensable":false,"width":2320},"supersize_tiff":{"display_name":"Super","dpi":300,"file_size":96883200,"format":"tiff","height":6960,"is_licensable":false,"width":4640},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/130585/130585,1245447002,2/stock-photo-orange-beach-umbrella-over-blue-sky-background-space-for-copy-jpeg-file-with-clipping-path-32329852.jpg","width":300},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/130585/130585,1245447002,2/stock-photo-orange-beach-umbrella-over-blue-sky-background-space-for-copy-jpeg-file-with-clipping-path-32329852.jpg","width":67},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/130585/130585,1245447002,2/stock-photo-orange-beach-umbrella-over-blue-sky-background-space-for-copy-jpeg-file-with-clipping-path-32329852.jpg","width":100}},"categories":[{"id":"18","name":"Sports/Recreation"},{"id":"9","name":"Objects"}],"contributor":{"id":"130585"},"description":"Orange
+        beach umbrella over blue sky background. Space for copy. Jpeg file with clipping
+        path included.","image_type":"photo","is_adult":false,"keywords":["beach","blue","card","clear","copy","cut","fun","greeting","holiday","isolated","leisure","marine","object","orange","outdoor","parasol","relax","relaxation","sea","seashore","seaside","season","seasonal","sky","space","summer","sun","sunlight","tourism","travel","umbrella","vacation","vertical","yellow"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:47 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/32329852/similar
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:48 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '15340'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 9cf1146c-7976-4728-84bb-43c04be63000
+      X-Shutterstock-Resource:
+      - "/v2/images/:id/similar"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 3600'
+      Etag:
+      - e0100d48cdc43982d2e054b0f8308045
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"per_page":20,"total_count":200,"search_id":"","data":[{"id":"431539351","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/4003009/431539351/stock-vector-hot-dog-fast-food-vector-illustration-flat-icon-431539351.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/4003009/431539351/stock-vector-hot-dog-fast-food-vector-illustration-flat-icon-431539351.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/4003009/431539351/stock-vector-hot-dog-fast-food-vector-illustration-flat-icon-431539351.jpg","width":150}},"contributor":{"id":"4003009"},"description":"Hot
+        dog fast food. Vector illustration. Flat icon.","image_type":"vector","media_type":"image"},{"id":"458743414","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/1813235/458743414/stock-vector-isolated-roasted-chicken-retro-fast-food-vector-illustration-458743414.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_small/1813235/458743414/stock-vector-isolated-roasted-chicken-retro-fast-food-vector-illustration-458743414.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb1.shutterstock.com/thumb_large/1813235/458743414/stock-vector-isolated-roasted-chicken-retro-fast-food-vector-illustration-458743414.jpg","width":150}},"contributor":{"id":"1813235"},"description":"Isolated
+        roasted chicken, Retro fast food, Vector illustration","image_type":"vector","media_type":"image"},{"id":"46084678","aspect":1.2407,"assets":{"preview":{"height":362,"url":"https://image.shutterstock.com/display_pic_with_logo/10684/10684,1265484341,4/stock-vector-stylised-fish-skeleton-46084678.jpg","width":450},"small_thumb":{"height":81,"url":"https://thumb1.shutterstock.com/thumb_small/10684/10684,1265484341,4/stock-vector-stylised-fish-skeleton-46084678.jpg","width":100},"large_thumb":{"height":121,"url":"https://thumb1.shutterstock.com/thumb_large/10684/10684,1265484341,4/stock-vector-stylised-fish-skeleton-46084678.jpg","width":150}},"contributor":{"id":"10684"},"description":"Stylised
+        fish skeleton","image_type":"vector","media_type":"image"},{"id":"513129607","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/161227930/513129607/stock-vector-croissant-icon-and-background-sunrise-style-on-pastel-light-brown-color-tone-513129607.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb10.shutterstock.com/thumb_small/161227930/513129607/stock-vector-croissant-icon-and-background-sunrise-style-on-pastel-light-brown-color-tone-513129607.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb10.shutterstock.com/thumb_large/161227930/513129607/stock-vector-croissant-icon-and-background-sunrise-style-on-pastel-light-brown-color-tone-513129607.jpg","width":150}},"contributor":{"id":"161227930"},"description":"Croissant
+        icon and background sunrise style on pastel light brown color tone","image_type":"vector","media_type":"image"},{"id":"481436413","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/2861395/481436413/stock-vector-piece-salmon-fish-slice-isolated-on-white-background-and-freshness-cut-delicious-diet-eat-fish-481436413.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb10.shutterstock.com/thumb_small/2861395/481436413/stock-vector-piece-salmon-fish-slice-isolated-on-white-background-and-freshness-cut-delicious-diet-eat-fish-481436413.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb10.shutterstock.com/thumb_large/2861395/481436413/stock-vector-piece-salmon-fish-slice-isolated-on-white-background-and-freshness-cut-delicious-diet-eat-fish-481436413.jpg","width":150}},"contributor":{"id":"2861395"},"description":"Piece
+        salmon fish slice isolated on white background and freshness cut delicious
+        diet eat fish slice vector","image_type":"vector","media_type":"image"},{"id":"20769595","aspect":1.3332,"assets":{"preview":{"height":337,"url":"https://image.shutterstock.com/display_pic_with_logo/139573/139573,1227083509,2/stock-vector-crystal-flower-20769595.jpg","width":450},"small_thumb":{"height":75,"url":"https://thumb9.shutterstock.com/thumb_small/139573/139573,1227083509,2/stock-vector-crystal-flower-20769595.jpg","width":100},"large_thumb":{"height":113,"url":"https://thumb9.shutterstock.com/thumb_large/139573/139573,1227083509,2/stock-vector-crystal-flower-20769595.jpg","width":150}},"contributor":{"id":"139573"},"description":"Crystal
+        Flower","image_type":"vector","media_type":"image"},{"id":"133193405","aspect":1.1468,"assets":{"preview":{"height":392,"url":"https://image.shutterstock.com/display_pic_with_logo/615430/133193405/stock-vector-colorful-yellow-fish-with-red-stripes-isolated-vector-illustration-on-white-background-133193405.jpg","width":450},"small_thumb":{"height":87,"url":"https://thumb7.shutterstock.com/thumb_small/615430/133193405/stock-vector-colorful-yellow-fish-with-red-stripes-isolated-vector-illustration-on-white-background-133193405.jpg","width":100},"large_thumb":{"height":131,"url":"https://thumb7.shutterstock.com/thumb_large/615430/133193405/stock-vector-colorful-yellow-fish-with-red-stripes-isolated-vector-illustration-on-white-background-133193405.jpg","width":150}},"contributor":{"id":"615430"},"description":"Colorful
+        yellow fish with red stripes. Isolated vector illustration on white background","image_type":"vector","media_type":"image"},{"id":"1817649","aspect":0.8044,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/5128/5128,1157852315,2/stock-vector-background-with-curved-lines-and-gradient-1817649.jpg","width":361},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/5128/5128,1157852315,2/stock-vector-background-with-curved-lines-and-gradient-1817649.jpg","width":80},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/5128/5128,1157852315,2/stock-vector-background-with-curved-lines-and-gradient-1817649.jpg","width":121}},"contributor":{"id":"5128"},"description":"Background
+        with curved lines and gradient","image_type":"vector","media_type":"image"},{"id":"310998512","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/1569788/310998512/stock-vector-sushi-isolated-illustration-on-white-background-310998512.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/1569788/310998512/stock-vector-sushi-isolated-illustration-on-white-background-310998512.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/1569788/310998512/stock-vector-sushi-isolated-illustration-on-white-background-310998512.jpg","width":150}},"contributor":{"id":"1569788"},"description":"Sushi
+        isolated illustration on white background","image_type":"vector","media_type":"image"},{"id":"167873624","aspect":1.5,"assets":{"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/462202/167873624/stock-photo-realistic-d-render-of-liver-167873624.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb1.shutterstock.com/thumb_small/462202/167873624/stock-photo-realistic-d-render-of-liver-167873624.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_large/462202/167873624/stock-photo-realistic-d-render-of-liver-167873624.jpg","width":150}},"contributor":{"id":"462202"},"description":"realistic
+        3d render of liver","image_type":"photo","media_type":"image"},{"id":"490162351","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/968654/490162351/stock-vector-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490162351.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/968654/490162351/stock-vector-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490162351.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/968654/490162351/stock-vector-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490162351.jpg","width":150}},"contributor":{"id":"968654"},"description":"Horizontal
+        seamless pattern of sea motif, stripes. Hand drawn.","image_type":"vector","media_type":"image"},{"id":"80503540","aspect":1.0118,"assets":{"preview":{"height":444,"url":"https://image.shutterstock.com/display_pic_with_logo/194326/194326,1309931804,2/stock-vector-vector-tropical-fish-80503540.jpg","width":450},"small_thumb":{"height":99,"url":"https://thumb9.shutterstock.com/thumb_small/194326/194326,1309931804,2/stock-vector-vector-tropical-fish-80503540.jpg","width":100},"large_thumb":{"height":148,"url":"https://thumb9.shutterstock.com/thumb_large/194326/194326,1309931804,2/stock-vector-vector-tropical-fish-80503540.jpg","width":150}},"contributor":{"id":"194326"},"description":"Vector
+        tropical fish","image_type":"vector","media_type":"image"},{"id":"490177678","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/968654/490177678/stock-photo-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490177678.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_small/968654/490177678/stock-photo-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490177678.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb1.shutterstock.com/thumb_large/968654/490177678/stock-photo-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490177678.jpg","width":150}},"contributor":{"id":"968654"},"description":"Horizontal
+        seamless pattern of sea motif, stripes. Hand drawn.","image_type":"photo","media_type":"image"},{"id":"41402194","aspect":1.3643,"assets":{"preview":{"height":329,"url":"https://image.shutterstock.com/display_pic_with_logo/350272/350272,1258905549,10/stock-photo-abstract-element-41402194.jpg","width":450},"small_thumb":{"height":73,"url":"https://thumb1.shutterstock.com/thumb_small/350272/350272,1258905549,10/stock-photo-abstract-element-41402194.jpg","width":100},"large_thumb":{"height":110,"url":"https://thumb1.shutterstock.com/thumb_large/350272/350272,1258905549,10/stock-photo-abstract-element-41402194.jpg","width":150}},"contributor":{"id":"350272"},"description":"Abstract
+        element","image_type":"photo","media_type":"image"},{"id":"13804285","aspect":1.1888,"assets":{"preview":{"height":378,"url":"https://image.shutterstock.com/display_pic_with_logo/78981/78981,1213446831,5/stock-vector-flaming-match-13804285.jpg","width":450},"small_thumb":{"height":84,"url":"https://thumb7.shutterstock.com/thumb_small/78981/78981,1213446831,5/stock-vector-flaming-match-13804285.jpg","width":100},"large_thumb":{"height":126,"url":"https://thumb7.shutterstock.com/thumb_large/78981/78981,1213446831,5/stock-vector-flaming-match-13804285.jpg","width":150}},"contributor":{"id":"78981"},"description":"flaming
+        match","image_type":"vector","media_type":"image"},{"id":"259360085","aspect":1.4981,"assets":{"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/1377379/259360085/stock-photo-china-fan-isolated-on-white-background-259360085.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb7.shutterstock.com/thumb_small/1377379/259360085/stock-photo-china-fan-isolated-on-white-background-259360085.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_large/1377379/259360085/stock-photo-china-fan-isolated-on-white-background-259360085.jpg","width":150}},"contributor":{"id":"1377379"},"description":"China
+        fan isolated on white background","image_type":"photo","media_type":"image"},{"id":"231930946","aspect":1.0145,"assets":{"preview":{"height":443,"url":"https://image.shutterstock.com/display_pic_with_logo/2532697/231930946/stock-vector-color-of-autumn-leaf-on-white-background-231930946.jpg","width":450},"small_thumb":{"height":99,"url":"https://thumb9.shutterstock.com/thumb_small/2532697/231930946/stock-vector-color-of-autumn-leaf-on-white-background-231930946.jpg","width":100},"large_thumb":{"height":148,"url":"https://thumb9.shutterstock.com/thumb_large/2532697/231930946/stock-vector-color-of-autumn-leaf-on-white-background-231930946.jpg","width":150}},"contributor":{"id":"2532697"},"description":"Color
+        of Autumn leaf on white Background","image_type":"vector","media_type":"image"},{"id":"542327914","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/615877/542327914/stock-photo-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-image-on-season-idea-beautiful-plant-542327914.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_small/615877/542327914/stock-photo-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-image-on-season-idea-beautiful-plant-542327914.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb1.shutterstock.com/thumb_large/615877/542327914/stock-photo-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-image-on-season-idea-beautiful-plant-542327914.jpg","width":150}},"contributor":{"id":"615877"},"description":"Art
+        fairy illustration of tree, stylized eco symbol. Insight image on season idea,
+        beautiful plant.","image_type":"photo","media_type":"image"},{"id":"478781389","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/615877/478781389/stock-vector-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-vector-image-on-season-idea-beautiful-478781389.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/615877/478781389/stock-vector-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-vector-image-on-season-idea-beautiful-478781389.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/615877/478781389/stock-vector-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-vector-image-on-season-idea-beautiful-478781389.jpg","width":150}},"contributor":{"id":"615877"},"description":"Art
+        fairy illustration of tree, stylized eco symbol. Insight vector image on season
+        idea, beautiful plant.","image_type":"vector","media_type":"image"},{"id":"47854045","aspect":0.9306,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/553351/553351,1267615340,6/stock-photo-illustration-of-isolated-an-umbrella-on-white-background-47854045.jpg","width":418},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/553351/553351,1267615340,6/stock-photo-illustration-of-isolated-an-umbrella-on-white-background-47854045.jpg","width":93},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/553351/553351,1267615340,6/stock-photo-illustration-of-isolated-an-umbrella-on-white-background-47854045.jpg","width":140}},"contributor":{"id":"553351"},"description":"illustration
+        of isolated an umbrella on white background","image_type":"photo","media_type":"image"}]}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:49 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/431539351
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:50 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1544'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 7af2ed8f-3452-49eb-84f4-97e4ab5ac955
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 74a9c2c8811c2116d61a7c77d443b199
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"431539351","added_date":"2016-06-05","aspect":1,"assets":{"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":592896,"format":"jpg","height":5000,"is_licensable":false,"width":5000},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/4003009/431539351/stock-vector-hot-dog-fast-food-vector-illustration-flat-icon-431539351.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/4003009/431539351/stock-vector-hot-dog-fast-food-vector-illustration-flat-icon-431539351.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/4003009/431539351/stock-vector-hot-dog-fast-food-vector-illustration-flat-icon-431539351.jpg","width":150}},"categories":[{"id":"6","name":"Food
+        and Drink"},{"id":"9","name":"Objects"}],"contributor":{"id":"4003009"},"description":"Hot
+        dog fast food. Vector illustration. Flat icon.","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["american","appetizer","bar","barbecue","bread","bun","burger","cartoon","character","comic","consumer","delicious","dinner","drawing","eat","fast","flat","food","friends","graphic","grilled","hamburger","hot","hotdog","illustration","image","isolated","ketchup","lunch","meal","meat","menu","mustard","picnic","poster","restaurant","retro","sale","sandwich","sauce","sausage","sign","snack","strip","symbol","takeaway","template","tomato"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:50 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/458743414
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:51 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1466'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 0bef7293-9bbd-4290-aa25-4b0dbad4e835
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 3c09f8d8f2ede51545309dbc4e006584
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"458743414","added_date":"2016-07-26","aspect":1,"assets":{"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":1775616,"format":"jpg","height":5315,"is_licensable":false,"width":5315},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/1813235/458743414/stock-vector-isolated-roasted-chicken-retro-fast-food-vector-illustration-458743414.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_small/1813235/458743414/stock-vector-isolated-roasted-chicken-retro-fast-food-vector-illustration-458743414.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb1.shutterstock.com/thumb_large/1813235/458743414/stock-vector-isolated-roasted-chicken-retro-fast-food-vector-illustration-458743414.jpg","width":150}},"categories":[{"id":"6","name":"Food
+        and Drink"},{"id":"20","name":"NOT-CATEGORIZED"}],"contributor":{"id":"1813235"},"description":"Isolated
+        roasted chicken, Retro fast food, Vector illustration","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["abstract","background","chicken","classic","cuisine","culinary","delicious","design","diet","dinner","fast","fat","food","grilled","icon","illustration","isolated","lifestyle","menu","nutrition","object","restaurant","retro","roasted","snack","style","tasty","texture","unhealthy","vector","vintage"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:51 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/46084678
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:52 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1151'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - e8de69cd-8fde-40ee-9bdd-e72beb93ed8d
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - bfb5f1e6fda2bcad48ce8bfafccdd2e9
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"46084678","added_date":"2010-02-06","aspect":1.2407,"assets":{"huge_jpg":{"display_name":"Small","dpi":72,"file_size":81920,"format":"jpg","height":403,"is_licensable":false,"width":500},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":362,"url":"https://image.shutterstock.com/display_pic_with_logo/10684/10684,1265484341,4/stock-vector-stylised-fish-skeleton-46084678.jpg","width":450},"small_thumb":{"height":81,"url":"https://thumb1.shutterstock.com/thumb_small/10684/10684,1265484341,4/stock-vector-stylised-fish-skeleton-46084678.jpg","width":100},"large_thumb":{"height":121,"url":"https://thumb1.shutterstock.com/thumb_large/10684/10684,1265484341,4/stock-vector-stylised-fish-skeleton-46084678.jpg","width":150}},"categories":[{"id":"9","name":"Objects"},{"id":"23","name":"Illustrations/Clip-Art"}],"contributor":{"id":"10684"},"description":"Stylised
+        fish skeleton","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["artwork","blue","bone","concept","design","elements","fish","illustration","reflection","shape","skeleton","style","vector"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:52 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/513129607
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:53 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1647'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 4e89cbdf-70ef-4672-adf5-00cc57b43b7a
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - '009639f7b80602e912f5aa2f4b2ee0c7'
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"513129607","added_date":"2016-11-10","aspect":1,"assets":{"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":4340736,"format":"jpg","height":12292,"is_licensable":false,"width":12292},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/161227930/513129607/stock-vector-croissant-icon-and-background-sunrise-style-on-pastel-light-brown-color-tone-513129607.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb10.shutterstock.com/thumb_small/161227930/513129607/stock-vector-croissant-icon-and-background-sunrise-style-on-pastel-light-brown-color-tone-513129607.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb10.shutterstock.com/thumb_large/161227930/513129607/stock-vector-croissant-icon-and-background-sunrise-style-on-pastel-light-brown-color-tone-513129607.jpg","width":150}},"categories":[{"id":"3","name":"Backgrounds/Textures"},{"id":"17","name":"Signs/Symbols"}],"contributor":{"id":"161227930"},"description":"Croissant
+        icon and background sunrise style on pastel light brown color tone","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["app","background","black","board","book","bubble","button","circle","collection","color","cook","cooking","design","dinner","flat","follow","food","hand","hat","hipster","icon","illustration","kitchen","like","long","media","message","office","outline","pastel","pattern","people","photo","restaurant","round","set","shadow","sign","social","speech","style","symbol","thumb","up","vector","web","white"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:53 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/481436413
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:54 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1790'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 7c88bfb1-bc74-4639-b237-24814093af0c
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - b1db3cb9d069c721ed81a74ea830a055
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"481436413","added_date":"2016-09-11","aspect":1,"assets":{"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":1406976,"format":"jpg","height":5665,"is_licensable":false,"width":5665},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/2861395/481436413/stock-vector-piece-salmon-fish-slice-isolated-on-white-background-and-freshness-cut-delicious-diet-eat-fish-481436413.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb10.shutterstock.com/thumb_small/2861395/481436413/stock-vector-piece-salmon-fish-slice-isolated-on-white-background-and-freshness-cut-delicious-diet-eat-fish-481436413.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb10.shutterstock.com/thumb_large/2861395/481436413/stock-vector-piece-salmon-fish-slice-isolated-on-white-background-and-freshness-cut-delicious-diet-eat-fish-481436413.jpg","width":150}},"categories":[{"id":"6","name":"Food
+        and Drink"},{"id":"9","name":"Objects"}],"contributor":{"id":"2861395"},"description":"Piece
+        salmon fish slice isolated on white background and freshness cut delicious
+        diet eat fish slice vector","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["cook","cooked","cooking","cuisine","cut","delicious","diet","dinner","dish","eat","fat","fillet","fish","fish
+        section","fish slice","food","food slice","fresh","freshness","gourmet","grilled","health
+        fish","healthy","illustration","ingredient","isolated","lunch slice","market","meal","meat","natural","nutrition
+        slice","omega","piece","plate","preparation","prepared","raw","ready","red","salmon","sashimi
+        fish","sea","seafood","slice","steak","trout","vector","view orange","white"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:54 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/20769595
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:55 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1440'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 69ccf1c8-b0ad-4be4-99b1-f27e953601dd
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - eae9b25347e95f04972ac53e257cc967
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"20769595","added_date":"2008-11-19","aspect":1.3332,"assets":{"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":386048,"format":"jpg","height":2500,"is_licensable":false,"width":3333},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":337,"url":"https://image.shutterstock.com/display_pic_with_logo/139573/139573,1227083509,2/stock-vector-crystal-flower-20769595.jpg","width":450},"small_thumb":{"height":75,"url":"https://thumb9.shutterstock.com/thumb_small/139573/139573,1227083509,2/stock-vector-crystal-flower-20769595.jpg","width":100},"large_thumb":{"height":113,"url":"https://thumb9.shutterstock.com/thumb_large/139573/139573,1227083509,2/stock-vector-crystal-flower-20769595.jpg","width":150}},"categories":[{"id":"26","name":"Abstract"},{"id":"23","name":"Illustrations/Clip-Art"}],"contributor":{"id":"139573"},"description":"Crystal
+        Flower","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["attractive","background","ball","beautiful","bloom","blossom","bud","calm","color","concept","crystal","design","dream","environment","flower","fresh","garden","illustration","landscape","life","meditation","mirror","morning","nature","orange","oriental","ornament","pad","pattern","petal","pink","plant","pond","romantic","shadow","spiritual","spring","stalk","tropical","unique","vector","water","waterlily","waves","white","wing"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:55 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/133193405
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:56 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1429'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 4dc010a2-d1ea-4755-95d9-6b02d974ae7e
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 90ca93d2e94685459d3b3a6b4876d637
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"133193405","added_date":"2013-03-28","aspect":1.1468,"assets":{"huge_jpg":{"display_name":"Small","dpi":72,"file_size":132096,"format":"jpg","height":545,"is_licensable":false,"width":625},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":392,"url":"https://image.shutterstock.com/display_pic_with_logo/615430/133193405/stock-vector-colorful-yellow-fish-with-red-stripes-isolated-vector-illustration-on-white-background-133193405.jpg","width":450},"small_thumb":{"height":87,"url":"https://thumb7.shutterstock.com/thumb_small/615430/133193405/stock-vector-colorful-yellow-fish-with-red-stripes-isolated-vector-illustration-on-white-background-133193405.jpg","width":100},"large_thumb":{"height":131,"url":"https://thumb7.shutterstock.com/thumb_large/615430/133193405/stock-vector-colorful-yellow-fish-with-red-stripes-isolated-vector-illustration-on-white-background-133193405.jpg","width":150}},"categories":[{"id":"1","name":"Animals/Wildlife"},{"id":"12","name":"Nature"}],"contributor":{"id":"615430"},"description":"Colorful
+        yellow fish with red stripes. Isolated vector illustration on white background","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["background","beautiful","cartoon","colorful","fish","flipper","food","illustration","isolated","lines","maritime","ocean","red","sea","stripes","vector","white","yellow"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:56 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/1817649
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:57 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1404'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 49fe78be-4f0a-4b4b-8621-6cb645ae8b55
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 1578085b73ed7e0e7d0d03bf3ff40a70
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"1817649","added_date":"2006-09-09","aspect":0.8044,"assets":{"huge_jpg":{"display_name":"Small","dpi":72,"file_size":510976,"format":"jpg","height":900,"is_licensable":false,"width":724},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/5128/5128,1157852315,2/stock-vector-background-with-curved-lines-and-gradient-1817649.jpg","width":361},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/5128/5128,1157852315,2/stock-vector-background-with-curved-lines-and-gradient-1817649.jpg","width":80},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/5128/5128,1157852315,2/stock-vector-background-with-curved-lines-and-gradient-1817649.jpg","width":121}},"categories":[{"id":"23","name":"Illustrations/Clip-Art"},{"id":"20","name":"NOT-CATEGORIZED"}],"contributor":{"id":"5128"},"description":"Background
+        with curved lines and gradient","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["abstract","abstraction","background","bright","color","colour","concept","curl","curve","curvy","decor","decorative","design","detail","ethereal","flourish","flow","flowing","illustration","light","lines","movement","pattern","ray","stream","template","trend","twirls","wallpaper","warm","web","whirl"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:57 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/310998512
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:58 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1415'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - '081a4a61-84ab-48fc-afe0-9679eb841dc4'
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 3f848a3ab65ec8484144371aba11ffb7
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"310998512","added_date":"2015-08-29","aspect":1,"assets":{"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":1501184,"format":"jpg","height":5000,"is_licensable":false,"width":5000},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/1569788/310998512/stock-vector-sushi-isolated-illustration-on-white-background-310998512.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/1569788/310998512/stock-vector-sushi-isolated-illustration-on-white-background-310998512.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/1569788/310998512/stock-vector-sushi-isolated-illustration-on-white-background-310998512.jpg","width":150}},"categories":[{"id":"6","name":"Food
+        and Drink"},{"id":"17","name":"Signs/Symbols"}],"contributor":{"id":"1569788"},"description":"Sushi
+        isolated illustration on white background","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["appetizing","art","asia","asian","background","bar","cuisine","culture","delicious","design","dinner","east","fish","food","fresh","healthy","icon","illustration","isolated","japan","japanese","meal","menu","restaurant","rice","sashimi","seafood","sign","sushi","symbol","template","traditional","vector"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:58 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/167873624
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:53:59 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1739'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - ccb12804-53ac-4f9d-9807-e57e5570c60a
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - b9597723fa8030954da7f78e3b4041dd
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"167873624","added_date":"2013-12-18","aspect":1.5,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":67584,"format":"jpg","height":333,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":201728,"format":"jpg","height":667,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":359424,"format":"jpg","height":2000,"is_licensable":true,"width":3000},"supersize_jpg":{"display_name":"Super","dpi":300,"file_size":792763,"format":"jpg","height":4000,"is_licensable":false,"width":6000},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":18000000,"format":"tiff","height":2000,"is_licensable":false,"width":3000},"supersize_tiff":{"display_name":"Super","dpi":300,"file_size":72000000,"format":"tiff","height":4000,"is_licensable":false,"width":6000},"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/462202/167873624/stock-photo-realistic-d-render-of-liver-167873624.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb1.shutterstock.com/thumb_small/462202/167873624/stock-photo-realistic-d-render-of-liver-167873624.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_large/462202/167873624/stock-photo-realistic-d-render-of-liver-167873624.jpg","width":150}},"categories":[{"id":"7","name":"Healthcare/Medical"},{"id":"20","name":"NOT-CATEGORIZED"}],"contributor":{"id":"462202"},"description":"realistic
+        3d render of liver","image_type":"illustration","is_adult":false,"is_illustration":true,"keywords":["3d","cartoon","digestive","graphics","human","illustration","image","liver","model","object","realistic","render","system"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:53:59 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/490162351
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:00 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1314'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 4d9ab261-08f2-4ad6-be4c-20b959f66d43
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 80a92ef8b65f7600ff7b5c3aee4e1817
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"490162351","added_date":"2016-09-28","aspect":1,"assets":{"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":674816,"format":"jpg","height":2500,"is_licensable":false,"width":2500},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/968654/490162351/stock-vector-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490162351.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/968654/490162351/stock-vector-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490162351.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/968654/490162351/stock-vector-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490162351.jpg","width":150}},"categories":[{"id":"20","name":"NOT-CATEGORIZED"},{"id":"22","name":"Miscellaneous"}],"contributor":{"id":"968654"},"description":"Horizontal
+        seamless pattern of sea motif, stripes. Hand drawn.","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["art","beige","color","colored","design","doodle","drawn","fish","hand","horizontal","object","ocher","pattern","seamless","shell","stripe","vector","white"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:00 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/80503540
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:01 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1477'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 65022708-4e03-4a21-8225-85b56cc2e3fd
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - d30bf4abd52e2de0e1009aed71352cfe
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"80503540","added_date":"2011-07-06","aspect":1.0118,"assets":{"huge_jpg":{"display_name":"Small","dpi":72,"file_size":114688,"format":"jpg","height":593,"is_licensable":false,"width":600},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":444,"url":"https://image.shutterstock.com/display_pic_with_logo/194326/194326,1309931804,2/stock-vector-vector-tropical-fish-80503540.jpg","width":450},"small_thumb":{"height":99,"url":"https://thumb9.shutterstock.com/thumb_small/194326/194326,1309931804,2/stock-vector-vector-tropical-fish-80503540.jpg","width":100},"large_thumb":{"height":148,"url":"https://thumb9.shutterstock.com/thumb_large/194326/194326,1309931804,2/stock-vector-vector-tropical-fish-80503540.jpg","width":150}},"categories":[{"id":"1","name":"Animals/Wildlife"},{"id":"26","name":"Abstract"}],"contributor":{"id":"194326"},"description":"Vector
+        tropical fish","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["abstract","angel","animal","aquarium","aquatic","art","backdrop","background","beach","beautiful","blue","bottom","bubble","cartoon","collection","color","colorful","coral","cute","deep","design","dive","drawing","exotic","fish","funny","green","group","icon","illustration","isolated","life","marine","nature","ocean","plant","reef","sea","seaweed","south","sparse","summer","swimming","tropic","tropical","underwater","vector","water","wild","wildlife"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:01 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/490177678
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:02 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1900'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 9d50be2f-6cdb-4a63-9b96-f788b57eecaa
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 9169af8c1fd36f0a3d608d3e5f7bfed2
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"490177678","added_date":"2016-09-28","aspect":1,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":95232,"format":"jpg","height":500,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":256000,"format":"jpg","height":1000,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":677888,"format":"jpg","height":2500,"is_licensable":true,"width":2500},"supersize_jpg":{"display_name":"Super","dpi":300,"file_size":1384005,"format":"jpg","height":5000,"is_licensable":false,"width":5000},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":18750000,"format":"tiff","height":2500,"is_licensable":false,"width":2500},"supersize_tiff":{"display_name":"Super","dpi":300,"file_size":75000000,"format":"tiff","height":5000,"is_licensable":false,"width":5000},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/968654/490177678/stock-photo-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490177678.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_small/968654/490177678/stock-photo-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490177678.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb1.shutterstock.com/thumb_large/968654/490177678/stock-photo-horizontal-seamless-pattern-of-sea-motif-stripes-hand-drawn-490177678.jpg","width":150}},"categories":[{"id":"20","name":"NOT-CATEGORIZED"},{"id":"22","name":"Miscellaneous"}],"contributor":{"id":"968654"},"description":"Horizontal
+        seamless pattern of sea motif, stripes. Hand drawn.","image_type":"illustration","is_adult":false,"is_illustration":true,"keywords":["art","beige","color","colored","design","doodle","drawn","fish","hand","horizontal","object","ocher","pattern","picture","seamless","shell","stripe","white"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:02 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/41402194
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:03 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '2111'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - d66f5a05-b1d7-4e0e-8538-f0ecfd644198
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 1900bb24031b656f86ab23e49c2ee344
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"41402194","added_date":"2009-11-22","aspect":1.3643,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":69632,"format":"jpg","height":366,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":218112,"format":"jpg","height":733,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":1127424,"format":"jpg","height":2199,"is_licensable":true,"width":3000},"supersize_jpg":{"display_name":"Super","dpi":300,"file_size":3252326,"format":"jpg","height":4398,"is_licensable":false,"width":6000},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":19791000,"format":"tiff","height":2199,"is_licensable":false,"width":3000},"supersize_tiff":{"display_name":"Super","dpi":300,"file_size":79164000,"format":"tiff","height":4398,"is_licensable":false,"width":6000},"preview":{"height":329,"url":"https://image.shutterstock.com/display_pic_with_logo/350272/350272,1258905549,10/stock-photo-abstract-element-41402194.jpg","width":450},"small_thumb":{"height":73,"url":"https://thumb1.shutterstock.com/thumb_small/350272/350272,1258905549,10/stock-photo-abstract-element-41402194.jpg","width":100},"large_thumb":{"height":110,"url":"https://thumb1.shutterstock.com/thumb_large/350272/350272,1258905549,10/stock-photo-abstract-element-41402194.jpg","width":150}},"categories":[{"id":"3","name":"Backgrounds/Textures"},{"id":"23","name":"Illustrations/Clip-Art"}],"contributor":{"id":"350272"},"description":"Abstract
+        element","image_type":"illustration","is_adult":false,"is_illustration":true,"keywords":["abstract","action","arts","backdrop","backgrounds","banner","blurred","bright","color","computer","concepts","copy","creativity","curled","curve","decoration","design","digital","effects","elements","flowing","generated","glowing","graphic","ideas","illuminated","illustration","image","imagination","inspiration","modern","motions","ornament","pattern","red","render","rendering","saturated","shape","shiny","simplicity","sparse","style","swirl","textured","twisted","vibrant","wallpaper","wave"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:03 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/13804285
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:04 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1429'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 38c49f5c-4eb1-47c9-bbbe-5c204fcb57da
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - d94ff52e4371bad834605e25124a0cc5
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"13804285","added_date":"2008-06-16","aspect":1.1888,"assets":{"huge_jpg":{"display_name":"Small","dpi":72,"file_size":179200,"format":"jpg","height":800,"is_licensable":false,"width":951},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":378,"url":"https://image.shutterstock.com/display_pic_with_logo/78981/78981,1213446831,5/stock-vector-flaming-match-13804285.jpg","width":450},"small_thumb":{"height":84,"url":"https://thumb7.shutterstock.com/thumb_small/78981/78981,1213446831,5/stock-vector-flaming-match-13804285.jpg","width":100},"large_thumb":{"height":126,"url":"https://thumb7.shutterstock.com/thumb_large/78981/78981,1213446831,5/stock-vector-flaming-match-13804285.jpg","width":150}},"categories":[{"id":"11","name":"The
+        Arts"},{"id":"3","name":"Backgrounds/Textures"}],"contributor":{"id":"78981"},"description":"flaming
+        match","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["abstract","art","background","bright","circle","color","colorful","concept","conceptual","curve","decorative","design","dot","element","fire","flame","fun","funky","graphics","groovy","hot","icon","illustration","match","matchtick","modern","orange","ornament","polka","pop","poster","print","red","retro","ring","round","shape","sign","signage","stick","stylize","symbol","texture","vector","vibrant","vivid","wallpaper","warm","yellow"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:05 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/259360085
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:05 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1719'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 3b84b0d5-4820-4154-b94c-044c8faf8a23
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - d8f57affd3abca63cbfad5f939975cfa
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"259360085","added_date":"2015-03-10","aspect":1.4981,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":134144,"format":"jpg","height":334,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":481280,"format":"jpg","height":668,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":9920512,"format":"jpg","height":3744,"is_licensable":true,"width":5609},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":63000288,"format":"tiff","height":3744,"is_licensable":false,"width":5609},"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/1377379/259360085/stock-photo-china-fan-isolated-on-white-background-259360085.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb7.shutterstock.com/thumb_small/1377379/259360085/stock-photo-china-fan-isolated-on-white-background-259360085.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_large/1377379/259360085/stock-photo-china-fan-isolated-on-white-background-259360085.jpg","width":150}},"categories":[{"id":"9","name":"Objects"},{"id":"11","name":"The
+        Arts"}],"contributor":{"id":"1377379"},"description":"China fan isolated on
+        white background","image_type":"photo","is_adult":false,"keywords":["abstract","accessory","air","art","artistic","asia","asian","background","beautiful","beauty","china","chinese","color","cool","craft","culture","decoration","design","east","eastern","elegance","fan","fashion","isolated","japan","japanese","object","open","oriental","ornament","paper","pattern","summer","symbol","texture","traditional","vintage","white","wind","wood"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:06 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/231930946
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:06 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1634'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 31460bc7-1552-414d-bedb-b40e39abb09e
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - e9e33f47664bb483882409648e08dcf7
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"231930946","added_date":"2014-11-20","aspect":1.0145,"assets":{"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":6356992,"format":"jpg","height":12142,"is_licensable":false,"width":12318},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":443,"url":"https://image.shutterstock.com/display_pic_with_logo/2532697/231930946/stock-vector-color-of-autumn-leaf-on-white-background-231930946.jpg","width":450},"small_thumb":{"height":99,"url":"https://thumb9.shutterstock.com/thumb_small/2532697/231930946/stock-vector-color-of-autumn-leaf-on-white-background-231930946.jpg","width":100},"large_thumb":{"height":148,"url":"https://thumb9.shutterstock.com/thumb_large/2532697/231930946/stock-vector-color-of-autumn-leaf-on-white-background-231930946.jpg","width":150}},"categories":[{"id":"3","name":"Backgrounds/Textures"},{"id":"11","name":"The
+        Arts"}],"contributor":{"id":"2532697"},"description":"Color of Autumn leaf
+        on white Background","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["abstract","advertising","background","banner","beautiful","brochure","business","calendar","card","celebrate","celebration","chinese","christmas","concept","congratulation","creative","decoration","decorative","festival","flyer","gift","greeting","happiness","happy","holiday","horse","label","layout","love","luxury","merry","modern","new","occasion","of","ornament","party","poster","present","presentation","promotion","prosperity","sale","season","sticker","tag","tattoo","template","the","wallpaper","website","wishes","xmas","year","yule"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:07 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/542327914
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:08 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '2094'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 07d25cb6-3c91-423b-b3a4-cdc99e3cda84
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 86724085d9cecfb9a8bd8779df9da2b2
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"542327914","added_date":"2016-12-24","aspect":1,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":86016,"format":"jpg","height":500,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":206848,"format":"jpg","height":1000,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":1107968,"format":"jpg","height":5000,"is_licensable":true,"width":5000},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":75000000,"format":"tiff","height":5000,"is_licensable":false,"width":5000},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/615877/542327914/stock-photo-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-image-on-season-idea-beautiful-plant-542327914.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_small/615877/542327914/stock-photo-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-image-on-season-idea-beautiful-plant-542327914.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb1.shutterstock.com/thumb_large/615877/542327914/stock-photo-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-image-on-season-idea-beautiful-plant-542327914.jpg","width":150}},"categories":[{"id":"11","name":"The
+        Arts"},{"id":"12","name":"Nature"}],"contributor":{"id":"615877"},"description":"Art
+        fairy illustration of tree, stylized eco symbol. Insight image on season idea,
+        beautiful plant.","image_type":"illustration","is_adult":false,"is_illustration":true,"keywords":["abstract","art","artistic","autumn","beautiful","botanical","branch","branchy","bright","conceptual","conservation","decoration","decorative","dendrology","design","design
+        element","eco","ecology","element","environment","environmental","fall","flora","floral","foliage","forest","garden","graphic","grass","herb","herbal","illustration","image","isolated","leaf","natural","nature","picture","plant","season","single","stylized","symbol","symbolic","tree","tree
+        of life","vegetation","wood"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:08 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/478781389
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:09 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1781'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 7e805ed3-cc1f-47f3-a10c-15c11b20de2a
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - ff4624f72f45bac7a8add6735a07fd97
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"478781389","added_date":"2016-09-05","aspect":1,"assets":{"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":1103872,"format":"jpg","height":5000,"is_licensable":false,"width":5000},"vector_eps":{"display_name":"Vector","format":"eps","is_licensable":true},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/615877/478781389/stock-vector-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-vector-image-on-season-idea-beautiful-478781389.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/615877/478781389/stock-vector-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-vector-image-on-season-idea-beautiful-478781389.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/615877/478781389/stock-vector-art-fairy-illustration-of-tree-stylized-eco-symbol-insight-vector-image-on-season-idea-beautiful-478781389.jpg","width":150}},"categories":[{"id":"11","name":"The
+        Arts"},{"id":"12","name":"Nature"}],"contributor":{"id":"615877"},"description":"Art
+        fairy illustration of tree, stylized eco symbol. Insight vector image on season
+        idea, beautiful plant.","image_type":"vector","is_adult":false,"is_illustration":true,"keywords":["abstract","art","artistic","autumn","beautiful","botanical","branch","branchy","bright","conceptual","conservation","decoration","decorative","dendrology","design","eco","ecology","element","environment","environmental","fall","flora","floral","foliage","forest","garden","graphic","grass","herb","herbal","illustration","image","isolated","leaf","life","natural","nature","of","picture","plant","season","single","stylized","symbol","symbolic","tree","vector","vegetation","wood"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:09 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/47854045
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:54:10 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1917'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 2555ed27-1ada-4598-8d51-3058b87e9463
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 0f8e3cff4f4b206f7a94e373f997e3c9
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"47854045","added_date":"2010-03-03","aspect":0.9306,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":93184,"format":"jpg","height":500,"is_licensable":true,"width":465},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":214016,"format":"jpg","height":1000,"is_licensable":true,"width":931},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":1210368,"format":"jpg","height":5000,"is_licensable":true,"width":4653},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":69795000,"format":"tiff","height":5000,"is_licensable":false,"width":4653},"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/553351/553351,1267615340,6/stock-photo-illustration-of-isolated-an-umbrella-on-white-background-47854045.jpg","width":418},"small_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_small/553351/553351,1267615340,6/stock-photo-illustration-of-isolated-an-umbrella-on-white-background-47854045.jpg","width":93},"large_thumb":{"height":150,"url":"https://thumb9.shutterstock.com/thumb_large/553351/553351,1267615340,6/stock-photo-illustration-of-isolated-an-umbrella-on-white-background-47854045.jpg","width":140}},"categories":[{"id":"23","name":"Illustrations/Clip-Art"},{"id":"0","name":"Transportation"}],"contributor":{"id":"553351"},"description":"illustration
+        of isolated an umbrella on white background","image_type":"illustration","is_adult":false,"is_illustration":true,"keywords":["accessory","art","autumn","background","care","cartoon","classic","climate","color","design","drawing","empty","equipment","fashion","graphic","handle","healthy","icon","illustration","isolated","object","open","outdoor","painting","protect","protection","rain","rainy","safety","season","seasonal","shelter","single","sketch","sky","storm","style","summer","sun","symbol","umbrella","water","weather","wet","white","yellow"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:54:10 GMT
+recorded_with: VCR 3.0.3

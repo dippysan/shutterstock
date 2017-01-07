@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/collections
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 06:28:33 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1459'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 21ba8543-88b2-4c6e-a6f5-4858a5fdd9c6
+      X-Shutterstock-Resource:
+      - "/v2/images/collections"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      Etag:
+      - b4a864bfafa2c36b6f444e598c7225ef
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"55301587","name":"test_collection","total_item_count":0,"items_updated_time":"2017-01-07T01:28:32-05:00"},{"id":"23712632","name":"Romantic","total_item_count":28,"items_updated_time":"2017-01-07T01:28:28-05:00","cover_item":{"id":"121972876"}},{"id":"55300691","name":"test_collection","total_item_count":0,"items_updated_time":"2017-01-07T00:57:29-05:00"},{"id":"55299017","name":"testcollection","total_item_count":0,"items_updated_time":"2017-01-06T23:58:07-05:00"},{"id":"29921401","name":"Trick","total_item_count":7,"items_updated_time":"2014-10-09T01:50:37-04:00","cover_item":{"id":"121085917"}},{"id":"24032255","name":"Easter","total_item_count":28,"items_updated_time":"2014-01-30T01:17:56-05:00","cover_item":{"id":"130576694"}},{"id":"23740163","name":"penguin","total_item_count":14,"items_updated_time":"2014-01-16T21:27:27-05:00","cover_item":{"id":"129297719"}},{"id":"23713583","name":"Advent","total_item_count":21,"items_updated_time":"2014-01-16T21:23:36-05:00","cover_item":{"id":"155370152"}},{"id":"23713508","name":"Design
+        plates for cookie","total_item_count":20,"items_updated_time":"2014-01-16T20:11:39-05:00","cover_item":{"id":"141690064"}},{"id":"23738516","name":"decal","total_item_count":1,"items_updated_time":"2014-01-16T18:56:56-05:00","cover_item":{"id":"156928727"}},{"id":"23738507","name":"decal","total_item_count":1,"items_updated_time":"2014-01-16T18:56:31-05:00","cover_item":{"id":"147448373"}}]}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 06:28:33 GMT
+recorded_with: VCR 3.0.3

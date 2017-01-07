@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/oauth/access_token
+    body:
+      encoding: US-ASCII
+      string: grant_type=authorization_code&client_id=<SSTK_CLIENT_ID>&client_secret=<SSTK_CLIENT_SECRET>&code=Dc4nSMazdKkFtk7AyBkSG3&contributor=customer
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 13 Jan 2017 02:21:11 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '356'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 4e53ab9a-2739-4ad6-a1d0-8673d971d31b
+      X-Shutterstock-Resource:
+      - "/oauth/access_token"
+      X-Shutterstock-App-Version:
+      - '1339'
+      X-Powered-By:
+      - Express
+      Content-Security-Policy:
+      - connect-src 'self' sdp-tagcollector.shutterstock.com https://bam.nr-data.net
+        https://api.segment.io; object-src 'self'; media-src 'self'; script-src 'self'
+        'unsafe-inline' 'unsafe-eval' https://www.offset.com https://absinthe.shutterstock.com
+        https://absinthe.picdn.net https://secure.adnxs.com https://cdn.segment.com
+        https://tags.extole.com https://ajax.googleapis.com tagmanager.google.com
+        https://www.google.com https://www.gstatic.com www.googletagmanager.com www.google-analytics.com
+        https://ssl.google-analytics.com www.googleadservices.com js-agent.newrelic.com
+        https://bam.nr-data.net/ *.bounceexchange.com
+      X-Content-Security-Policy:
+      - connect-src 'self' sdp-tagcollector.shutterstock.com https://bam.nr-data.net
+        https://api.segment.io; object-src 'self'; media-src 'self'; script-src 'self'
+        'unsafe-inline' 'unsafe-eval' https://www.offset.com https://absinthe.shutterstock.com
+        https://absinthe.picdn.net https://secure.adnxs.com https://cdn.segment.com
+        https://tags.extole.com https://ajax.googleapis.com tagmanager.google.com
+        https://www.google.com https://www.gstatic.com www.googletagmanager.com www.google-analytics.com
+        https://ssl.google-analytics.com www.googleadservices.com js-agent.newrelic.com
+        https://bam.nr-data.net/ *.bounceexchange.com
+      X-Webkit-Csp:
+      - connect-src 'self' sdp-tagcollector.shutterstock.com https://bam.nr-data.net
+        https://api.segment.io; object-src 'self'; media-src 'self'; script-src 'self'
+        'unsafe-inline' 'unsafe-eval' https://www.offset.com https://absinthe.shutterstock.com
+        https://absinthe.picdn.net https://secure.adnxs.com https://cdn.segment.com
+        https://tags.extole.com https://ajax.googleapis.com tagmanager.google.com
+        https://www.google.com https://www.gstatic.com www.googletagmanager.com www.google-analytics.com
+        https://ssl.google-analytics.com www.googleadservices.com js-agent.newrelic.com
+        https://bam.nr-data.net/ *.bounceexchange.com
+      X-End-User-Country:
+      - 'null'
+      Set-Cookie:
+      - connect.sid=s%3A1VGtLG7aiimM3nXgFCyhk1Q3XBOpRVXi.MogVn6TzIRaWwGK7DcLGmOAGEKEmrPi4e5PBx%2B1EyL4;
+        Path=/; HttpOnly
+      - did=e072d58a-f7fc-4794-913a-7e09f787eef5; Max-Age=315360000; Domain=.shutterstock.com;
+        Path=/; Expires=Mon, 11 Jan 2027 02:21:11 GMT; HttpOnly
+      Etag:
+      - W/"2c1-Dn796RpiJTWHUELf0+W90w"
+      X-Shutterstock-Render-Time-Ms:
+      - '15'
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"access_token":"v2/OGNhZDA4OTUwZWU1MzNjMzM5OWQvMTE2NjM1MjA1L2N1c3RvbWVyLzIvMXdEdElwSjh6clFjRW1NVmpqcmNaVmxfcDBGVVFhR3ljM08yeWlJSGtlam5vQ09ZY1RQM3VNdXNOcVVnS1cxSFlCM1hPSDFCSHJnbmh4ckZkUEJJeEpzU2Q5ZlUzTUhEcjNIVmN2cURqZFdSaXNTMklMOHZTOUwyX285WnZUUVNRM0xoLTRaa2xiUW0xUmZvRXVRakxnMHNKRDNXU0dmekRCQzMwTmF0Z1J5RnlKdDJPcktPdDhtLW0tR3JtcFpz","token_type":"Bearer"}'
+    http_version: 
+  recorded_at: Fri, 13 Jan 2017 02:21:11 GMT
+recorded_with: VCR 3.0.3

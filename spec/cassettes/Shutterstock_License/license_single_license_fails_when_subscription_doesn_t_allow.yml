@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/licenses?format=tiff&size=small&subscription_id=s30187600
+    body:
+      encoding: UTF-8
+      string: '{"images":[{"image_id":"157910507"}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 06:44:23 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '168'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 273f10b4-3fc4-419a-8f57-8425f3f2f5a9
+      X-Shutterstock-Resource:
+      - "/v2/images/licenses"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"message":"Validation failed","errors":[{"code":"VALIDATION_ENUM_MISMATCH","message":"No
+        enum match (tiff), expects: eps, jpg","data":"tiff","path":"$.query.format"}]}'
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 06:44:23 GMT
+recorded_with: VCR 3.0.3

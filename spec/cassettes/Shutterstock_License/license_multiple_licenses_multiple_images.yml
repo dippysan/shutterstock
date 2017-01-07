@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/licenses?format=jpg&size=huge&subscription_id=s30187600
+    body:
+      encoding: UTF-8
+      string: '{"images":[{"image_id":"312464573"},{"image_id":"313292420"},{"image_id":"314250722"}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 07:20:39 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '880'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 8cc3e44c-b27c-4706-8a57-d116610cebfe
+      X-Shutterstock-Resource:
+      - "/v2/images/licenses"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"image_id":"312464573","download":{"url":"https://download.shutterstock.com/gatekeeper/W3siZSI6MTQ4Mzg4ODgzOSwiayI6InBob3RvLzMxMjQ2NDU3My9odWdlLmpwZyIsIm0iOiIxIiwiZCI6InNodXR0ZXJzdG9jay1tZWRpYSJ9LCJ0OUNzNXhJVXJWemgrdlAzVkdoUzRhWDBIZVkiXQ/shutterstock_312464573.jpg"},"allotment_charge":1},{"image_id":"313292420","download":{"url":"https://download.shutterstock.com/gatekeeper/W3siZSI6MTQ4Mzg4ODgzOCwiayI6InBob3RvLzMxMzI5MjQyMC9odWdlLmpwZyIsIm0iOiIxIiwiZCI6InNodXR0ZXJzdG9jay1tZWRpYSJ9LCJqKzlXS1E3aWRveDdKdzB3MnVpUGNFRlAweXciXQ/shutterstock_313292420.jpg"},"allotment_charge":1},{"image_id":"314250722","download":{"url":"https://download.shutterstock.com/gatekeeper/W3siZSI6MTQ4Mzg4ODgzOCwiayI6InBob3RvLzMxNDI1MDcyMi9odWdlLmpwZyIsIm0iOiIxIiwiZCI6InNodXR0ZXJzdG9jay1tZWRpYSJ9LCJ2aTV2RVlaQXVET3BMR1l2N3ZLbTZ6czZyeU0iXQ/shutterstock_314250722.jpg"},"allotment_charge":1}]}'
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 07:20:39 GMT
+recorded_with: VCR 3.0.3

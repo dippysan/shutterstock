@@ -1,0 +1,160 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/204501694
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 12 Jan 2017 03:15:43 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '2295'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 1894b222-09aa-4b66-801a-23bf6647b938
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-742
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - 0cae240d87744e43d0046d3922470eb2
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"204501694","added_date":"2014-07-12","aspect":1.5028,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":274432,"format":"jpg","height":333,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":959488,"format":"jpg","height":665,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":12215296,"format":"jpg","height":2832,"is_licensable":true,"width":4256},"supersize_jpg":{"display_name":"Super","dpi":300,"file_size":41443416,"format":"jpg","height":5664,"is_licensable":false,"width":8512},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":36158976,"format":"tiff","height":2832,"is_licensable":false,"width":4256},"supersize_tiff":{"display_name":"Super","dpi":300,"file_size":144635904,"format":"tiff","height":5664,"is_licensable":false,"width":8512},"preview":{"height":299,"url":"https://image.shutterstock.com/display_pic_with_logo/1877909/204501694/stock-photo-fort-worth-texas-usa-march-rodeo-at-fort-worth-stockyards-historic-district-former-204501694.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb1.shutterstock.com/thumb_small/1877909/204501694/stock-photo-fort-worth-texas-usa-march-rodeo-at-fort-worth-stockyards-historic-district-former-204501694.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_large/1877909/204501694/stock-photo-fort-worth-texas-usa-march-rodeo-at-fort-worth-stockyards-historic-district-former-204501694.jpg","width":150}},"categories":[{"id":"13","name":"People"},{"id":"18","name":"Sports/Recreation"}],"contributor":{"id":"1877909"},"description":"Fort
+        Worth, Texas, USA, March. 24, 2012: Rodeo at Fort Worth Stockyards Historic
+        District, former livestock market, now main tourist attraction in Fort Worth,
+        TX","image_type":"photo","is_adult":false,"is_editorial":true,"keywords":["actions","agriculture","airborne","america","american","animal","arena","boots","bronco","bucking","bull","competition","cowboy","danger","extreme","fence","fitness","flag","fort","gripping","helmet","heritage","horns","horse","jumping","outdoors","person","rearing","rider","riding","rodeo","rope","rough","safety","spectators","sport","stockyard","usa","west","western","wild","worth"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Thu, 12 Jan 2017 03:15:43 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/user/subscriptions
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 12 Jan 2017 03:15:45 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '3544'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - a2e75fde-49af-4da8-9cba-cff53d66be58
+      X-Shutterstock-Resource:
+      - "/v2/user/subscriptions"
+      X-Shutterstock-App-Version:
+      - apitwo-742
+      Cache-Control:
+      - no-cache
+      Etag:
+      - c69312831541631d73b4175e972a7c33
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"s29729296","expiration_time":"2016-12-28T09:36:49-05:00","license":"standard","description":"Monthly
+        Subscription","formats":[{"size":"huge","format":"jpg","media_type":"image","min_resolution":4000000,"description":"Huge"},{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"supersize","format":"jpg","media_type":"image","min_resolution":16000000,"description":"Super"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"},{"size":"vector","format":"eps","media_type":"image","description":"Vector"}]},{"id":"s14235337","expiration_time":"2015-08-08T22:43:27-04:00","license":"standard","description":"Images
+        On Demand","formats":[{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"}]},{"id":"s13218524","expiration_time":"2015-05-27T01:35:45-04:00","license":"standard","description":"Images
+        On Demand","formats":[{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"}]},{"id":"s8250890","expiration_time":"2015-05-21T03:56:18-04:00","license":"standard","description":"25-A-Day
+        Subscription","formats":[{"size":"huge","format":"jpg","media_type":"image","min_resolution":4000000,"description":"Huge"},{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"supersize","format":"jpg","media_type":"image","min_resolution":16000000,"description":"Super"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"},{"size":"vector","format":"eps","media_type":"image","description":"Vector"}]},{"id":"s30187600","expiration_time":"2017-02-05T23:29:10-05:00","license":"standard","description":"Monthly
+        Subscription","allotment":{"start_time":"2017-01-05T23:29:11-05:00","end_time":"2017-02-05T23:29:10-05:00","downloads_left":317,"downloads_limit":350},"formats":[{"size":"huge","format":"jpg","media_type":"image","min_resolution":4000000,"description":"Huge"},{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"supersize","format":"jpg","media_type":"image","min_resolution":16000000,"description":"Super"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"},{"size":"vector","format":"eps","media_type":"image","description":"Vector"}]},{"id":"s19375703","expiration_time":"2016-12-12T12:47:21-05:00","license":"standard","description":"Monthly
+        Subscription","formats":[{"size":"huge","format":"jpg","media_type":"image","min_resolution":4000000,"description":"Huge"},{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"supersize","format":"jpg","media_type":"image","min_resolution":16000000,"description":"Super"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"},{"size":"vector","format":"eps","media_type":"image","description":"Vector"}]},{"id":"s12406385","expiration_time":"2015-03-31T10:16:29-04:00","license":"standard","description":"Images
+        On Demand","formats":[{"size":"medium","format":"jpg","media_type":"image","min_resolution":1000,"description":"Med"},{"size":"small","format":"jpg","media_type":"image","min_resolution":500,"description":"Small"}]}]}'
+    http_version: 
+  recorded_at: Thu, 12 Jan 2017 03:15:46 GMT
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/licenses?subscription_id=s30187600
+    body:
+      encoding: UTF-8
+      string: '{"images":[{"image_id":"204501694","editorial_acknowledgement":true}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 12 Jan 2017 03:15:47 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '300'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - beaa2c2b-ec01-46e9-a916-94a21fcace57
+      X-Shutterstock-Resource:
+      - "/v2/images/licenses"
+      X-Shutterstock-App-Version:
+      - apitwo-742
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"image_id":"204501694","download":{"url":"https://download.shutterstock.com/gatekeeper/W3siZSI6MTQ4NDIxOTc0NywiayI6InBob3RvLzIwNDUwMTY5NC9odWdlLmpwZyIsIm0iOiIxIiwiZCI6InNodXR0ZXJzdG9jay1tZWRpYSJ9LCJCWXFmVkdMdndqM0huRmhzTHZ0eDZibGdEdnMiXQ/shutterstock_204501694.jpg"},"allotment_charge":0}]}'
+    http_version: 
+  recorded_at: Thu, 12 Jan 2017 03:15:47 GMT
+recorded_with: VCR 3.0.3

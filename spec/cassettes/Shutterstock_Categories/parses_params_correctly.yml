@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/356308322
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 00:39:27 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1794'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - cb6f5665-fb37-4594-9521-7eec62b8a1c7
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - c409f7b27c1558af18f802e849c94d28
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"356308322","added_date":"2015-12-29","aspect":1.498,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":128000,"format":"jpg","height":334,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":417792,"format":"jpg","height":668,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":5781504,"format":"jpg","height":3691,"is_licensable":true,"width":5529},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":61222617,"format":"tiff","height":3691,"is_licensable":false,"width":5529},"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/2396102/356308322/stock-photo-cute-asian-children-lying-on-white-bed-356308322.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb9.shutterstock.com/thumb_small/2396102/356308322/stock-photo-cute-asian-children-lying-on-white-bed-356308322.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_large/2396102/356308322/stock-photo-cute-asian-children-lying-on-white-bed-356308322.jpg","width":150}},"categories":[{"id":"13","name":"People"},{"id":"20","name":"NOT-CATEGORIZED"}],"contributor":{"id":"2396102"},"description":"Cute
+        asian children lying on white bed","image_type":"photo","is_adult":false,"has_model_release":true,"keywords":["asia","asian","background","bed","boy","brother","cheerful","child","childhood","cute","face","family","filter","friendship","fun","girl","happiness","happy","hug","japan","japanese","kid","korea","korean","laugh","little","look","love","lying","people","person","play","playful","portrait","sibling","sister","smile","toddler","two","vintage","white","young","youth"],"media_type":"image","models":[{"id":"17856134"},{"id":"15233887"}]}'
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 00:39:27 GMT
+recorded_with: VCR 3.0.3

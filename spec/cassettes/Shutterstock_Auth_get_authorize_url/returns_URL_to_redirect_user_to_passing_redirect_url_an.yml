@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/oauth/authorize?client_id=<SSTK_CLIENT_ID>&redirect_uri=http://localhost&response_type=code&scope=collections.view&state=test
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 13 Jan 2017 02:19:56 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 39eae4e3-0632-4a47-9b7b-2299b12516af
+      X-Shutterstock-Resource:
+      - "/v2/oauth/authorize"
+      X-Shutterstock-App-Version:
+      - apitwo-742
+      Location:
+      - https://accounts.shutterstock.com/login?next=%2Foauth%2Fauthorize%3Fclient_id%3D<SSTK_CLIENT_ID>%26redirect_uri%3Dhttp%3A%2F%2Flocalhost%26response_type%3Dcode%26scope%3Dcollections.view%26state%3Dtest%26realm%3Dcustomer
+    body:
+      encoding: UTF-8
+      string: 'Moved Temporarily. Redirecting to https://accounts.shutterstock.com/login?next=%2Foauth%2Fauthorize%3Fclient_id%3D<SSTK_CLIENT_ID>%26redirect_uri%3Dhttp%3A%2F%2Flocalhost%26response_type%3Dcode%26scope%3Dcollections.view%26state%3Dtest%26realm%3Dcustomer
+
+'
+    http_version: 
+  recorded_at: Fri, 13 Jan 2017 02:19:56 GMT
+recorded_with: VCR 3.0.3

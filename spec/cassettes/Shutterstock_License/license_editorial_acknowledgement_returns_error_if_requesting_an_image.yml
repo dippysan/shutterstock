@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/licenses?subscription_id=s30187600
+    body:
+      encoding: UTF-8
+      string: '{"images":[{"image_id":"204501694"}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 12 Jan 2017 03:08:45 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '179'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 1bcaa8e7-b52b-45ba-8855-00af6d99f5f7
+      X-Shutterstock-Resource:
+      - "/v2/images/licenses"
+      X-Shutterstock-App-Version:
+      - apitwo-742
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"image_id":"204501694","error":"Editorial status must be
+        acknowledged"}],"errors":[{"message":"Failed to license 1 image","items":[{"image_id":"204501694","index":0}]}]}'
+    http_version: 
+  recorded_at: Thu, 12 Jan 2017 03:08:45 GMT
+recorded_with: VCR 3.0.3

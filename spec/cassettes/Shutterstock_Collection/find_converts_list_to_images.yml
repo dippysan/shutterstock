@@ -1,0 +1,101 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/collections/23712632
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 06:28:24 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '138'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 633758d6-3c18-430e-b68e-ac71a366502e
+      X-Shutterstock-Resource:
+      - "/v2/images/collections/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      Etag:
+      - 480fd22d20afa1aea132cf5989173fba
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"23712632","name":"Romantic","total_item_count":28,"items_updated_time":"2017-01-07T01:22:25-05:00","cover_item":{"id":"550104544"}}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 06:28:24 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/collections/23712632/items
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 06:28:25 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1677'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 04e6a771-8192-41b5-b5f7-df9330aa7348
+      X-Shutterstock-Resource:
+      - "/v2/images/collections/:id/items"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      Etag:
+      - 7d260e6b03e35f4ca2a77e664d25c23b
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"550104544","added_time":"2017-01-07T00:57:25-05:00"},{"id":"140853793","added_time":"2014-01-16T20:12:17-05:00"},{"id":"114317080","added_time":"2014-01-16T19:20:25-05:00"},{"id":"143450500","added_time":"2014-01-16T19:08:46-05:00"},{"id":"164383604","added_time":"2014-01-16T19:08:26-05:00"},{"id":"92978701","added_time":"2014-01-15T21:12:20-05:00"},{"id":"88028233","added_time":"2014-01-15T20:54:09-05:00"},{"id":"167864858","added_time":"2014-01-15T20:52:29-05:00"},{"id":"167864792","added_time":"2014-01-15T20:52:10-05:00"},{"id":"162812291","added_time":"2014-01-15T20:51:38-05:00"},{"id":"94904584","added_time":"2014-01-15T20:50:42-05:00"},{"id":"55998103","added_time":"2014-01-15T20:50:15-05:00"},{"id":"124099501","added_time":"2014-01-15T20:50:05-05:00"},{"id":"94010314","added_time":"2014-01-15T20:49:44-05:00"},{"id":"168629831","added_time":"2014-01-15T20:49:33-05:00"},{"id":"93616249","added_time":"2014-01-15T20:49:15-05:00"},{"id":"66534100","added_time":"2014-01-15T20:49:02-05:00"},{"id":"70205677","added_time":"2014-01-15T20:48:43-05:00"},{"id":"70358221","added_time":"2014-01-15T20:48:34-05:00"},{"id":"119991742","added_time":"2014-01-15T20:47:46-05:00"},{"id":"168979739","added_time":"2014-01-15T20:47:21-05:00"},{"id":"128033804","added_time":"2014-01-15T20:46:58-05:00"},{"id":"126851528","added_time":"2014-01-15T20:46:29-05:00"},{"id":"90323443","added_time":"2014-01-15T20:45:05-05:00"},{"id":"80318872","added_time":"2014-01-15T20:44:54-05:00"},{"id":"69671698","added_time":"2014-01-15T20:44:42-05:00"},{"id":"70106635","added_time":"2014-01-15T20:30:55-05:00"},{"id":"121972876","added_time":"2014-01-15T20:30:41-05:00"}]}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 06:28:25 GMT
+recorded_with: VCR 3.0.3

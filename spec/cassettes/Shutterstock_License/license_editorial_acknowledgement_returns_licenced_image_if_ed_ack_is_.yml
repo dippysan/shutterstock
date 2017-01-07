@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/licenses?subscription_id=s30187600
+    body:
+      encoding: UTF-8
+      string: '{"images":[{"image_id":"204501694","editorial_acknowledgement":true}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 12 Jan 2017 03:12:38 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '300'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 74300739-0838-4c3f-8730-6188fba2f7f0
+      X-Shutterstock-Resource:
+      - "/v2/images/licenses"
+      X-Shutterstock-App-Version:
+      - apitwo-742
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"image_id":"204501694","download":{"url":"https://download.shutterstock.com/gatekeeper/W3siZSI6MTQ4NDIxOTU1NywiayI6InBob3RvLzIwNDUwMTY5NC9odWdlLmpwZyIsIm0iOiIxIiwiZCI6InNodXR0ZXJzdG9jay1tZWRpYSJ9LCJJdXNWMlFsS0YxUW1UYmZUdnd6RjF0WTBYcXMiXQ/shutterstock_204501694.jpg"},"allotment_charge":1}]}'
+    http_version: 
+  recorded_at: Thu, 12 Jan 2017 03:12:38 GMT
+recorded_with: VCR 3.0.3

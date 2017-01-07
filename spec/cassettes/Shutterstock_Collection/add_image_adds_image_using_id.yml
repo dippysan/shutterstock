@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/collections/23712632/items
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"id":"123456987654321"}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 08 Jan 2017 03:26:40 GMT
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 6b654191-1961-488c-9c17-0a8be99ce9f5
+      X-Shutterstock-Resource:
+      - "/v2/images/collections/:id/items"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Sun, 08 Jan 2017 03:26:40 GMT
+recorded_with: VCR 3.0.3

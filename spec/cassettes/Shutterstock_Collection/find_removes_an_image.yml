@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/collections/23712632
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 06:28:30 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '138'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - de33d6fd-e3ab-411f-9288-4e5cd49f9146
+      X-Shutterstock-Resource:
+      - "/v2/images/collections/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      Etag:
+      - d9d16b44e08cfe52ee388719401fc555
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"23712632","name":"Romantic","total_item_count":28,"items_updated_time":"2017-01-07T01:28:28-05:00","cover_item":{"id":"550104544"}}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 06:28:30 GMT
+- request:
+    method: delete
+    uri: https://api.shutterstock.com/v2/images/collections/23712632/items?id=550104544
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 06:28:31 GMT
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 32896412-3aca-41aa-9a73-d78ae87348c2
+      X-Shutterstock-Resource:
+      - "/v2/images/collections/:id/items"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 06:28:31 GMT
+recorded_with: VCR 3.0.3

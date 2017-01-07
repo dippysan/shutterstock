@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/118139110
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:22:05 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '1977'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - bec6f4a3-c933-433f-8d4b-c54025bfe7e6
+      X-Shutterstock-Resource:
+      - "/v2/images/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 60'
+      Etag:
+      - db9c662516f46908753c30d5174e75e9
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"118139110","added_date":"2012-11-09","aspect":1.5,"assets":{"small_jpg":{"display_name":"Small","dpi":72,"file_size":88064,"format":"jpg","height":333,"is_licensable":true,"width":500},"medium_jpg":{"display_name":"Med","dpi":300,"file_size":301056,"format":"jpg","height":667,"is_licensable":true,"width":1000},"huge_jpg":{"display_name":"Huge","dpi":300,"file_size":2790400,"format":"jpg","height":3090,"is_licensable":true,"width":4635},"supersize_jpg":{"display_name":"Super","dpi":300,"file_size":10112609,"format":"jpg","height":6180,"is_licensable":false,"width":9270},"huge_tiff":{"display_name":"Huge","dpi":300,"file_size":42966450,"format":"tiff","height":3090,"is_licensable":false,"width":4635},"supersize_tiff":{"display_name":"Super","dpi":300,"file_size":171865800,"format":"tiff","height":6180,"is_licensable":false,"width":9270},"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/1306729/118139110/stock-photo-adorable-labrador-puppy-playing-with-a-chew-toy-on-white-backdrop-118139110.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb1.shutterstock.com/thumb_small/1306729/118139110/stock-photo-adorable-labrador-puppy-playing-with-a-chew-toy-on-white-backdrop-118139110.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_large/1306729/118139110/stock-photo-adorable-labrador-puppy-playing-with-a-chew-toy-on-white-backdrop-118139110.jpg","width":150}},"categories":[{"id":"1","name":"Animals/Wildlife"},{"id":"20","name":"NOT-CATEGORIZED"}],"contributor":{"id":"1306729"},"description":"Adorable
+        Labrador Puppy Playing with a Chew Toy on White Backdrop","image_type":"photo","is_adult":false,"keywords":["animal","animal
+        themes","backgrounds","cute","dog","domestic animals","friendship","full length","isolated","labrador","labrador
+        retriever","one animal","pets","play","puppy","purebred dog","studio shot","toy","yellow","young
+        animal"],"media_type":"image"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:22:05 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/118139110/similar
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 13:22:06 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '15319'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 34f2316b-204e-4838-93e8-dbc2fce4a4b0
+      X-Shutterstock-Resource:
+      - "/v2/images/:id/similar"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - 'private; max-age: 3600'
+      Etag:
+      - 68db6ff351e30da7c08a5313e0e1f730
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"per_page":20,"total_count":200,"search_id":"","data":[{"id":"145400341","aspect":1.5002,"assets":{"preview":{"height":299,"url":"https://image.shutterstock.com/display_pic_with_logo/1306729/145400341/stock-photo-alert-labrador-puppy-with-toy-145400341.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb7.shutterstock.com/thumb_small/1306729/145400341/stock-photo-alert-labrador-puppy-with-toy-145400341.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_large/1306729/145400341/stock-photo-alert-labrador-puppy-with-toy-145400341.jpg","width":150}},"contributor":{"id":"1306729"},"description":"Alert
+        Labrador Puppy with Toy","image_type":"photo","media_type":"image"},{"id":"145400368","aspect":1.5,"assets":{"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/1306729/145400368/stock-photo-cute-labrador-puppy-playing-with-a-toy-on-white-backdrop-145400368.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb1.shutterstock.com/thumb_small/1306729/145400368/stock-photo-cute-labrador-puppy-playing-with-a-toy-on-white-backdrop-145400368.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_large/1306729/145400368/stock-photo-cute-labrador-puppy-playing-with-a-toy-on-white-backdrop-145400368.jpg","width":150}},"contributor":{"id":"1306729"},"description":"Cute
+        Labrador Puppy Playing with a Toy on White Backdrop","image_type":"photo","media_type":"image"},{"id":"278945048","aspect":1.5099,"assets":{"preview":{"height":298,"url":"https://image.shutterstock.com/display_pic_with_logo/1135340/278945048/stock-photo-portrait-of-a-beagle-dog-lying-isolated-on-white-background-278945048.jpg","width":450},"small_thumb":{"height":66,"url":"https://thumb1.shutterstock.com/thumb_small/1135340/278945048/stock-photo-portrait-of-a-beagle-dog-lying-isolated-on-white-background-278945048.jpg","width":100},"large_thumb":{"height":99,"url":"https://thumb1.shutterstock.com/thumb_large/1135340/278945048/stock-photo-portrait-of-a-beagle-dog-lying-isolated-on-white-background-278945048.jpg","width":150}},"contributor":{"id":"1135340"},"description":"Portrait
+        of a beagle dog lying isolated on white background","image_type":"photo","media_type":"image"},{"id":"408004243","aspect":1.2822,"assets":{"preview":{"height":350,"url":"https://image.shutterstock.com/display_pic_with_logo/89296/408004243/stock-photo-sad-puppy-dog-isolated-over-white-background-408004243.jpg","width":450},"small_thumb":{"height":78,"url":"https://thumb10.shutterstock.com/thumb_small/89296/408004243/stock-photo-sad-puppy-dog-isolated-over-white-background-408004243.jpg","width":100},"large_thumb":{"height":117,"url":"https://thumb10.shutterstock.com/thumb_large/89296/408004243/stock-photo-sad-puppy-dog-isolated-over-white-background-408004243.jpg","width":150}},"contributor":{"id":"89296"},"description":"sad
+        puppy dog isolated over white background","image_type":"photo","media_type":"image"},{"id":"265616159","aspect":1.4998,"assets":{"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/441070/265616159/stock-photo-a-portrait-of-a-golden-retriever-dog-laying-over-white-background-265616159.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb7.shutterstock.com/thumb_small/441070/265616159/stock-photo-a-portrait-of-a-golden-retriever-dog-laying-over-white-background-265616159.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_large/441070/265616159/stock-photo-a-portrait-of-a-golden-retriever-dog-laying-over-white-background-265616159.jpg","width":150}},"contributor":{"id":"441070"},"description":"A
+        portrait of a golden retriever dog laying over white background","image_type":"photo","media_type":"image"},{"id":"118139113","aspect":1.5,"assets":{"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/1306729/118139113/stock-photo-adorable-labrador-puppy-playing-with-a-chew-toy-on-white-backdrop-118139113.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb10.shutterstock.com/thumb_small/1306729/118139113/stock-photo-adorable-labrador-puppy-playing-with-a-chew-toy-on-white-backdrop-118139113.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb10.shutterstock.com/thumb_large/1306729/118139113/stock-photo-adorable-labrador-puppy-playing-with-a-chew-toy-on-white-backdrop-118139113.jpg","width":150}},"contributor":{"id":"1306729"},"description":"Adorable
+        Labrador Puppy Playing with a Chew Toy on White Backdrop","image_type":"photo","media_type":"image"},{"id":"443698735","aspect":1.5939,"assets":{"preview":{"height":282,"url":"https://image.shutterstock.com/display_pic_with_logo/1450490/443698735/stock-photo-puppy-labrador-retriever-in-the-white-studio-443698735.jpg","width":450},"small_thumb":{"height":63,"url":"https://thumb7.shutterstock.com/thumb_small/1450490/443698735/stock-photo-puppy-labrador-retriever-in-the-white-studio-443698735.jpg","width":100},"large_thumb":{"height":94,"url":"https://thumb7.shutterstock.com/thumb_large/1450490/443698735/stock-photo-puppy-labrador-retriever-in-the-white-studio-443698735.jpg","width":150}},"contributor":{"id":"1450490"},"description":"Puppy
+        labrador retriever in the white studio","image_type":"photo","media_type":"image"},{"id":"400840462","aspect":1.6698,"assets":{"preview":{"height":269,"url":"https://image.shutterstock.com/display_pic_with_logo/89296/400840462/stock-photo-puppy-dog-isolated-over-white-background-400840462.jpg","width":450},"small_thumb":{"height":60,"url":"https://thumb9.shutterstock.com/thumb_small/89296/400840462/stock-photo-puppy-dog-isolated-over-white-background-400840462.jpg","width":100},"large_thumb":{"height":90,"url":"https://thumb9.shutterstock.com/thumb_large/89296/400840462/stock-photo-puppy-dog-isolated-over-white-background-400840462.jpg","width":150}},"contributor":{"id":"89296"},"description":"puppy
+        dog isolated over white background","image_type":"photo","media_type":"image"},{"id":"11220508","aspect":1.4595,"assets":{"preview":{"height":308,"url":"https://image.shutterstock.com/display_pic_with_logo/3053/3053,1204817287,1/stock-photo-a-golden-retriever-and-cocker-spaniel-puppy-in-the-studio-11220508.jpg","width":450},"small_thumb":{"height":69,"url":"https://thumb7.shutterstock.com/thumb_small/3053/3053,1204817287,1/stock-photo-a-golden-retriever-and-cocker-spaniel-puppy-in-the-studio-11220508.jpg","width":100},"large_thumb":{"height":103,"url":"https://thumb7.shutterstock.com/thumb_large/3053/3053,1204817287,1/stock-photo-a-golden-retriever-and-cocker-spaniel-puppy-in-the-studio-11220508.jpg","width":150}},"contributor":{"id":"3053"},"description":"A
+        golden retriever and cocker spaniel puppy in the studio","image_type":"photo","media_type":"image"},{"id":"11220493","aspect":1.4595,"assets":{"preview":{"height":308,"url":"https://image.shutterstock.com/display_pic_with_logo/3053/3053,1204813354,1/stock-photo-a-golden-retriever-and-cocker-spaniel-puppy-in-the-studio-11220493.jpg","width":450},"small_thumb":{"height":69,"url":"https://thumb7.shutterstock.com/thumb_small/3053/3053,1204813354,1/stock-photo-a-golden-retriever-and-cocker-spaniel-puppy-in-the-studio-11220493.jpg","width":100},"large_thumb":{"height":103,"url":"https://thumb7.shutterstock.com/thumb_large/3053/3053,1204813354,1/stock-photo-a-golden-retriever-and-cocker-spaniel-puppy-in-the-studio-11220493.jpg","width":150}},"contributor":{"id":"3053"},"description":"A
+        golden retriever and cocker spaniel puppy in the studio","image_type":"photo","media_type":"image"},{"id":"42056902","aspect":1.4704,"assets":{"preview":{"height":306,"url":"https://image.shutterstock.com/display_pic_with_logo/5487/5487,1259779912,1/stock-photo-studio-portrait-of-a-beautiful-and-cute-labrador-dog-breed-42056902.jpg","width":450},"small_thumb":{"height":68,"url":"https://thumb7.shutterstock.com/thumb_small/5487/5487,1259779912,1/stock-photo-studio-portrait-of-a-beautiful-and-cute-labrador-dog-breed-42056902.jpg","width":100},"large_thumb":{"height":102,"url":"https://thumb7.shutterstock.com/thumb_large/5487/5487,1259779912,1/stock-photo-studio-portrait-of-a-beautiful-and-cute-labrador-dog-breed-42056902.jpg","width":150}},"contributor":{"id":"5487"},"description":"Studio
+        portrait of a beautiful and cute labrador dog breed","image_type":"photo","media_type":"image"},{"id":"90493837","aspect":0.6667,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/304216/304216,1323398590,1/stock-photo-golden-retriever-dog-puppy-isolated-on-white-background-90493837.jpg","width":300},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/304216/304216,1323398590,1/stock-photo-golden-retriever-dog-puppy-isolated-on-white-background-90493837.jpg","width":67},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/304216/304216,1323398590,1/stock-photo-golden-retriever-dog-puppy-isolated-on-white-background-90493837.jpg","width":100}},"contributor":{"id":"304216"},"description":"Golden
+        retriever dog puppy isolated on white background","image_type":"photo","media_type":"image"},{"id":"432433657","aspect":0.6667,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/146/432433657/stock-photo-young-labrador-retriever-dog-on-white-background-432433657.jpg","width":300},"small_thumb":{"height":100,"url":"https://thumb10.shutterstock.com/thumb_small/146/432433657/stock-photo-young-labrador-retriever-dog-on-white-background-432433657.jpg","width":67},"large_thumb":{"height":150,"url":"https://thumb10.shutterstock.com/thumb_large/146/432433657/stock-photo-young-labrador-retriever-dog-on-white-background-432433657.jpg","width":100}},"contributor":{"id":"146"},"description":"Young
+        labrador retriever dog on white background","image_type":"photo","media_type":"image"},{"id":"41340892","aspect":1,"assets":{"preview":{"height":450,"url":"https://image.shutterstock.com/display_pic_with_logo/305215/305215,1258822612,61/stock-photo-seated-puppy-labrador-retriever-cream-in-front-of-white-background-41340892.jpg","width":450},"small_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_small/305215/305215,1258822612,61/stock-photo-seated-puppy-labrador-retriever-cream-in-front-of-white-background-41340892.jpg","width":100},"large_thumb":{"height":150,"url":"https://thumb7.shutterstock.com/thumb_large/305215/305215,1258822612,61/stock-photo-seated-puppy-labrador-retriever-cream-in-front-of-white-background-41340892.jpg","width":150}},"contributor":{"id":"305215"},"description":"seated
+        Puppy Labrador retriever cream in front of white background","image_type":"photo","media_type":"image"},{"id":"89122411","aspect":1.5,"assets":{"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/304216/304216,1321716617,1/stock-photo-golden-retriever-dog-puppy-isolated-on-white-background-89122411.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb7.shutterstock.com/thumb_small/304216/304216,1321716617,1/stock-photo-golden-retriever-dog-puppy-isolated-on-white-background-89122411.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_large/304216/304216,1321716617,1/stock-photo-golden-retriever-dog-puppy-isolated-on-white-background-89122411.jpg","width":150}},"contributor":{"id":"304216"},"description":"Golden
+        retriever dog puppy isolated on white background","image_type":"photo","media_type":"image"},{"id":"256149367","aspect":1.4633,"assets":{"preview":{"height":307,"url":"https://image.shutterstock.com/display_pic_with_logo/80789/256149367/stock-photo-young-golden-retriever-in-front-of-white-background-256149367.jpg","width":450},"small_thumb":{"height":68,"url":"https://thumb10.shutterstock.com/thumb_small/80789/256149367/stock-photo-young-golden-retriever-in-front-of-white-background-256149367.jpg","width":100},"large_thumb":{"height":103,"url":"https://thumb10.shutterstock.com/thumb_large/80789/256149367/stock-photo-young-golden-retriever-in-front-of-white-background-256149367.jpg","width":150}},"contributor":{"id":"80789"},"description":"young
+        golden retriever in front of white background","image_type":"photo","media_type":"image"},{"id":"408004390","aspect":1.4998,"assets":{"preview":{"height":300,"url":"https://image.shutterstock.com/display_pic_with_logo/89296/408004390/stock-photo-sad-puppy-dog-isolated-over-white-background-408004390.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb1.shutterstock.com/thumb_small/89296/408004390/stock-photo-sad-puppy-dog-isolated-over-white-background-408004390.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb1.shutterstock.com/thumb_large/89296/408004390/stock-photo-sad-puppy-dog-isolated-over-white-background-408004390.jpg","width":150}},"contributor":{"id":"89296"},"description":"sad
+        puppy dog isolated over white background","image_type":"photo","media_type":"image"},{"id":"214857589","aspect":1.5028,"assets":{"preview":{"height":299,"url":"https://image.shutterstock.com/display_pic_with_logo/89296/214857589/stock-photo-sad-puppy-dog-isolated-over-white-background-214857589.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb7.shutterstock.com/thumb_small/89296/214857589/stock-photo-sad-puppy-dog-isolated-over-white-background-214857589.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_large/89296/214857589/stock-photo-sad-puppy-dog-isolated-over-white-background-214857589.jpg","width":150}},"contributor":{"id":"89296"},"description":"sad
+        puppy dog isolated over white background","image_type":"photo","media_type":"image"},{"id":"96777595","aspect":1.5002,"assets":{"preview":{"height":299,"url":"https://image.shutterstock.com/display_pic_with_logo/80789/80789,1330954962,5/stock-photo--purebred-labrador-retriever-in-front-of-a-white-background-96777595.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb7.shutterstock.com/thumb_small/80789/80789,1330954962,5/stock-photo--purebred-labrador-retriever-in-front-of-a-white-background-96777595.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb7.shutterstock.com/thumb_large/80789/80789,1330954962,5/stock-photo--purebred-labrador-retriever-in-front-of-a-white-background-96777595.jpg","width":150}},"contributor":{"id":"80789"},"description":"
+        purebred  labrador retriever in front of a white background","image_type":"photo","media_type":"image"},{"id":"189960602","aspect":1.5028,"assets":{"preview":{"height":299,"url":"https://image.shutterstock.com/display_pic_with_logo/948514/189960602/stock-photo-golden-retriever-dog-isolated-on-white-189960602.jpg","width":450},"small_thumb":{"height":67,"url":"https://thumb9.shutterstock.com/thumb_small/948514/189960602/stock-photo-golden-retriever-dog-isolated-on-white-189960602.jpg","width":100},"large_thumb":{"height":100,"url":"https://thumb9.shutterstock.com/thumb_large/948514/189960602/stock-photo-golden-retriever-dog-isolated-on-white-189960602.jpg","width":150}},"contributor":{"id":"948514"},"description":"Golden
+        retriever dog isolated on white","image_type":"photo","media_type":"image"}]}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 13:22:07 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.shutterstock.com/v2/images/collections/55301587
+    body:
+      encoding: UTF-8
+      string: '{"name":"test_collection_new_name"}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 06:28:34 GMT
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - 17c07b03-670f-43fa-9e49-027f706956af
+      X-Shutterstock-Resource:
+      - "/v2/images/collections/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 06:28:35 GMT
+- request:
+    method: get
+    uri: https://api.shutterstock.com/v2/images/collections/55301587
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Authorization:
+      - Bearer <SSTK_ACCESS_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 07 Jan 2017 06:28:36 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '121'
+      Connection:
+      - keep-alive
+      X-End-User-Request-Id:
+      - d94b92ac-f6e6-4daf-82e5-e9de322c9997
+      X-Shutterstock-Resource:
+      - "/v2/images/collections/:id"
+      X-Shutterstock-App-Version:
+      - apitwo-739
+      Cache-Control:
+      - no-cache
+      Etag:
+      - 45d404e8218e5da045f7a457ffbe61fb
+      X-End-User-User-Id:
+      - "<SSTK_USER_ID>"
+      X-End-User-Client-Id:
+      - "<SSTK_CLIENT_ID>"
+    body:
+      encoding: UTF-8
+      string: '{"id":"55301587","name":"test_collection_new_name","total_item_count":0,"items_updated_time":"2017-01-07T01:28:34-05:00"}'
+    http_version: 
+  recorded_at: Sat, 07 Jan 2017 06:28:36 GMT
+recorded_with: VCR 3.0.3
