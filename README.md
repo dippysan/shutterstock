@@ -49,7 +49,7 @@ image.description
 license = image.license
 
 if !license.error
-  `wget #{license.url}`
+  `wget #{license.download}`
 end
 
 # Create a collection
@@ -174,7 +174,7 @@ If an image requires editorial approval, `license` requests it.
 ```ruby
 licensed = Image.find(553180399).license
 licensed.allotment_charge   # 1 if not previously licensed, otherwise 0
-licensed.url
+licensed.download
 # => "https://download.shutterstock.com/gatekeeper/abc/original.jpg"
 
 # License the smallest asset of the image. Supports: small, medium, huge, vector. Default: huge.
